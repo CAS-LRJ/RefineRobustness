@@ -101,9 +101,14 @@ class network(object):
         unsafe_region (list of ndarray):coeffient of output and a constant
         property_flag (bool) : indicates the network have verification layer or not
         property_region (float) : Area of the input box
+        self.MODE_ROBUSTNESS=0
+        self.MODE_QUANTITIVE=1
     """
 
     def __init__(self):
+        self.MODE_QUANTITIVE=0
+        self.MODE_ROBUSTNESS=1
+
         self.numlayers=None
         self.layerSizes=None
         self.inputSize=None
@@ -119,7 +124,7 @@ class network(object):
         for i in range(len(self.layers)):
             self.layers[i].clear()
     
-    def verify_lp_split(self,PROPERTY,DELTA,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=False,SOLVER=cp.GUROBI):
+    def verify_lp_split(self,PROPERTY,DELTA,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=False,SOLVER=cp.GUROBI,MODE=0):
         if SPLIT_NUM>self.inputSize:
             SPLIT_NUM=self.inputSize
         if self.property_flag==True:
@@ -162,6 +167,7 @@ class network(object):
             variables.append(cp.Variable(self.layers[i].size))
         unsafe_set=set()
         unsafe_set_deeppoly=set()
+        unsafe_area_list=np.zeros(len(split_list))
         verified_list=[]
         verified_area=0
         for i in verify_list:
@@ -392,14 +398,31 @@ class network(object):
                     # self.layers[0].print()
                     # print(splits_num,area)
                     if area>0:
+                        if MODE==self.MODE_ROBUSTNESS:
+                            return False
+                        unsafe_area_list[splits_num]+=area
                         unsafe_set.add(splits_num)
                         total_area+=area
             print('verification neuron:',i,'Unsafe Overapproximate(Box)%:',total_area*100)
             verified_area+=total_area
             verified_list.append(i)
         print('Overall Unsafe Overapproximate(Area)%',verified_area*100)
+        verified_area=0
+        for i in unsafe_area_list:
+            if i>1/len(unsafe_area_list):
+                verified_area+=1/len(unsafe_area_list)
+            else:
+                verified_area+=i
+        print('Overall Unsafe Overapproximate(Smart Area)%',verified_area*100)
         print('Overall Unsafe Overapproximate(Box)%:',len(unsafe_set)/len(split_list)*100)
         print('Overall Unsafe Overapproximate(Deeppoly)%:',len(unsafe_set_deeppoly)/len(split_list)*100)
+        if MODE==self.MODE_ROBUSTNESS:
+            return True
+        if MODE==self.MODE_QUANTITIVE:
+            if verified_area<len(unsafe_set)/len(split_list):
+                return [verified_area*100,len(unsafe_set_deeppoly)/len(split_list)*100]
+            else:
+                return [len(unsafe_set)/len(split_list)*100,len(unsafe_set_deeppoly)/len(split_list)*100]
 
     def verify_split(self,PROPERTY,DELTA,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True):
         if SPLIT_NUM>self.inputSize:
@@ -894,6 +917,9 @@ class network(object):
                 self.layers.append(verify_layer)
 
     def load_robustness(self, filename,delta, TRIM=False):
+        if self.property_flag==True:
+                self.layers.pop()
+                # self.clear()
         self.property_flag=True        
         with open(filename) as f:
             self.property_region=1
@@ -1100,16 +1126,39 @@ class network(object):
         self.numLayers=len(layersize)-1
         pass
 
+    def find_max_disturbance(self,PROPERTY,L=0,R=1000,TRIM=False):
+        ans=0
+        while L<=R:
+            # print(L,R)
+            mid=int((L+R)/2)
+            self.load_robustness(PROPERTY,mid/1000,TRIM=TRIM)
+            self.clear()
+            self.deeppoly()
+            flag=True
+            for neuron_i in self.layers[-1].neurons:
+                # print(neuron_i.concrete_upper)
+                if neuron_i.concrete_upper>0:
+                    flag=False
+            if flag==True:
+                ans=mid/1000
+                L=mid+1
+            else:
+                R=mid-1
+        return ans
+
+
 def main():
     start = time.time()
     net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
+    net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
+    # print(net.find_max_disturbance(PROPERTY='properties/local_robustness_4.txt'))
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
+    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
 
-    net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv')
-    net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)        
-    # net.load_robustness('properties/mnist_0_local_property.in',0.054,TRIM=True)
+    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv')
+    # print(net.find_max_disturbance(PROPERTY='properties/mnist_0_local_property.in',TRIM=True))
+    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)        
+    # net.load_robustness('properties/mnist_0_local_property.in',0.045,TRIM=True)
 
     # net.deeppoly()
     # flag=True
@@ -1121,198 +1170,6 @@ def main():
     end = time.time()
     print(end-start)
     # pass
-    # #ACAS-Xu Experiment
-    # print("\n--------------------------------------")
-    # print("net4_2 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_1.txt',DELTA=0.005,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_2 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_2 local robustness 3")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_3.txt',DELTA=0.045,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_3 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_3.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_1.txt',DELTA=0.011,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_3 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_3.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_3 local robustness 3")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_3.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_3.txt',DELTA=0.045,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_4 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_4.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_1.txt',DELTA=0.004,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_4 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_4.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.06,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("net4_4 local robustness 3")
-    # start = time.time()
-    # net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_4.nnet') 
-    # net.verify_split(PROPERTY='properties/local_robustness_3.txt',DELTA=0.05,MAX_ITER=5,SPLIT_NUM=5,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-
-    #Mnist Experiment
-    # print("\n--------------------------------------")
-    # print("FNN1 local robustness 0")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.04,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN1 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_1_local_property.in',DELTA=0.019,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN1 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_2_local_property.in',DELTA=0.033,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN2 local robustness 0")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.024,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN2 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_1_local_property.in',DELTA=0.011,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN2 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_2_local_property.in',DELTA=0.013,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN3 local robustness 0")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_3_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.035,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN3 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_3_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_1_local_property.in',DELTA=0.016,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN3 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_3_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_2_local_property.in',DELTA=0.031,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN4 local robustness 0")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.03,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN4 local robustness 1")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_1_local_property.in',DELTA=0.015,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
-    # print("\n--------------------------------------")
-    # print("FNN4 local robustness 2")
-    # start = time.time()
-    # net=network()
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv') 
-    # net.verify_split(PROPERTY='properties/mnist_2_local_property.in',DELTA=0.025,MAX_ITER=5,SPLIT_NUM=0,REFRESH_INPUT=True)
-    # end = time.time()
-    # print(end-start)
-    # print("--------------------------------------\n")
     
 
 if __name__ == "__main__":

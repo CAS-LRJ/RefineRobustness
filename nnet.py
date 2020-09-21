@@ -1,4 +1,5 @@
 import numpy as np
+import random
 
 class NNet():
     """
@@ -80,7 +81,7 @@ class NNet():
             self.weights = weights
             self.biases = biases
             
-    def evaluate_network(self, inputs):
+    def evaluate_network(self, inputs, NORMALIZATION=False):
         '''
         Evaluate network using given inputs
         
@@ -97,15 +98,18 @@ class NNet():
         weights = self.weights
 
         # Prepare the inputs to the neural network
-        # inputsNorm = np.zeros(inputSize)
-        # for i in range(inputSize):
-        #     if inputs[i]<self.mins[i]:
-        #         inputsNorm[i] = (self.mins[i]-self.means[i])/self.ranges[i]
-        #     elif inputs[i]>self.maxes[i]:
-        #         inputsNorm[i] = (self.maxes[i]-self.means[i])/self.ranges[i] 
-        #     else:
-        #         inputsNorm[i] = (inputs[i]-self.means[i])/self.ranges[i] 
-        inputsNorm=inputs
+        if NORMALIZATION==True:
+            inputsNorm = np.zeros(inputSize)
+            for i in range(inputSize):
+                if inputs[i]<self.mins[i]:
+                    inputsNorm[i] = (self.mins[i]-self.means[i])/self.ranges[i]
+                elif inputs[i]>self.maxes[i]:
+                    inputsNorm[i] = (self.maxes[i]-self.means[i])/self.ranges[i] 
+                else:
+                    inputsNorm[i] = (inputs[i]-self.means[i])/self.ranges[i] 
+            print('normalized input:',inputsNorm)
+        else:
+            inputsNorm=inputs
 
         # Evaluate the neural network
         for layer in range(numLayers-1):
@@ -167,5 +171,12 @@ class NNet():
         return self.outputSize
 
 net=NNet('nnet/ACASXU_experimental_v2a_4_2.nnet')
-inputs=np.array([0.6719,0.0019,-0.4967,0.4694,-0.4532])
-print(net.evaluate_network(inputs))
+# inputs=np.array([0.6719,0.0019,-0.4967,0.4694,-0.4532])
+# inputs=np.array([32000,1.920796,-3.139092,650,600])
+inputs=np.zeros(5)
+inputs[0]=random.uniform(12000+50000/3,12000+50000/3*2)
+inputs[1]=random.uniform(0.7+2.441592/3,0.7+2.441592/3*2)
+inputs[2]=random.uniform(-3.141592+0.005/3,-3.141592+0.005/3*2)
+inputs[3]=random.uniform(100+1100/3,100+1100/3*2)
+inputs[4]=random.uniform(1200/3,1200/3*2)
+print(net.evaluate_network(inputs,NORMALIZATION=True))
