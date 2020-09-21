@@ -251,10 +251,10 @@ class network(object):
                     input_neurons=self.layers[0].neurons
                     for k in range(self.inputSize):
                         obj=cp.Minimize(variables[0][k])
-                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj))
+                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
                         #
                         obj=cp.Maximize(variables[0][k])
-                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj))
+                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
                     wait(tasklist)
                     resultlist=[task.result() for task in tasklist]
                     for k in range(self.inputSize):
@@ -279,7 +279,7 @@ class network(object):
                             for p in range(cur_layer.size):
                                 if next_layer.neurons[p].certain_flag==0:
                                     obj=cp.Minimize(variables[k][p])
-                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj))
+                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
                     wait(tasklist)
                     resultlist=[task.result() for task in tasklist]
                     index=0
@@ -307,7 +307,7 @@ class network(object):
                             for p in range(cur_layer.size):
                                 if next_layer.neurons[p].certain_flag==0:
                                     obj=cp.Maximize(variables[k][p])
-                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj))
+                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
                     wait(tasklist)
                     resultlist=[task.result() for task in tasklist]
                     index=0
@@ -1074,7 +1074,7 @@ def main():
     net=network()
     net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,SPLIT_NUM=0,SOLVER=cp.CBC)
+    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,WOKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
     # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv')
     # net.verify_lp_split('properties/mnist_0_local_property.in',0.06,TRIM=True)        
     # net.load_robustness('properties/mnist_0_local_property.in',0.055,TRIM=True)
