@@ -1,0 +1,10 @@
+#Recommend Anaconda3 to install python library
+#Recommend OS: Windows 10
+#Anaconda Python: 3.7.8
+#Anaconda3 Channels: conda config --add channels http://conda.anaconda.org/gurobi
+#Anaconda3 Library: cvxopt cvxpy cvxpy-base cvxcanon glpk blas libblas libcblas gurobi numpy scipy
+conda create -n AAAI_ARTIFACT python=3.7.8
+conda activate AAAI_ARTIFACT
+conda config --add channels http://conda.anaconda.org/gurobi
+conda install cvxopt cvxpy-base cvxpy glpk gurobi numpy scipy blas libblas libcblas
+python network.py
