@@ -220,7 +220,8 @@ class network(object):
                     prob=cp.Problem(cp.Maximize(0),constraints)
                     prob.solve(solver=SOLVER)
                     if prob.status!=cp.OPTIMAL:
-                        print(prob.status)
+                        # print(prob.status)
+                        print("Split:",splits_num,"Infeasible")
                         break
 
                     # #Refresh the input layer bounds
@@ -396,7 +397,7 @@ class network(object):
                     for j in range(self.inputSize):
                         area*=(self.layers[0].neurons[j].concrete_upper-self.layers[0].neurons[j].concrete_lower)/DELTA/2
                     # self.layers[0].print()
-                    # print(splits_num,area)
+                    print("Split:",splits_num,"Area:",area*100)
                     if area>0:
                         if MODE==self.MODE_ROBUSTNESS:
                             return False
@@ -1148,12 +1149,34 @@ class network(object):
 
 
 def main():
-    start = time.time()
-    net=network()
-    net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
+    net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
+    property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
+    disturbance_list=[0.02,0.03,0.04]
+    result_list=[]
+    for net_i in net_list[:1]:
+        property_list=[]
+        for property_i in property_list[:1]:
+            net=network()
+            net.load_nnet(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i)
+            delta_list=[]
+            for disturbance_i in disturbance_list[:1]:
+                print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
+                start=time.time()
+                net=network()
+                net.load_nnet(net_i)
+                delta_list.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+                end=time.time()
+                print("Finished Time:",end-start)
+            property_list.append(delta_list)
+        result_list.append(property_list)
+    print(result_list)
+    # start = time.time()
+    # net=network()
+    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # print(net.find_max_disturbance(PROPERTY='properties/local_robustness_4.txt'))
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
+    # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
 
     # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv')
     # print(net.find_max_disturbance(PROPERTY='properties/mnist_0_local_property.in',TRIM=True))
@@ -1167,8 +1190,8 @@ def main():
     #     if neuron_i.concrete_upper>0:
     #         flag=False
     # print(flag)
-    end = time.time()
-    print(end-start)
+    # end = time.time()
+    # print(end-start)
     # pass
     
 
