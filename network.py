@@ -1074,7 +1074,7 @@ def main():
     net=network()
     net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
+    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.065,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
     # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv')
     # net.verify_lp_split('properties/mnist_0_local_property.in',0.06,TRIM=True)        
     # net.load_robustness('properties/mnist_0_local_property.in',0.055,TRIM=True)
@@ -1085,8 +1085,8 @@ def main():
     #     if neuron_i.concrete_upper>0:
     #         flag=False
     # print(flag)
-    # end = time.time()
-    # print(end-start)
+    end = time.time()
+    print(end-start)
     # pass
     # #ACAS-Xu Experiment
     # print("\n--------------------------------------")
