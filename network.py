@@ -2,7 +2,7 @@ import numpy as np
 import cvxpy as cp
 import time
 from copy import deepcopy
-import multiprocessing
+import multiprocessing as mp
 from concurrent.futures import ProcessPoolExecutor,as_completed,wait
 
 def lpsolve(vars,cons,obj,solver=cp.GUROBI):
@@ -247,16 +247,29 @@ class network(object):
                     #     break
 
                     #Refresh the input layer bounds
+                    mppool=mp.Pool(WORKERS)
                     tasklist=[]
                     input_neurons=self.layers[0].neurons
                     for k in range(self.inputSize):
                         obj=cp.Minimize(variables[0][k])
-                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
+                        #Below using mp Pool
+                        tasklist.append((variables,constraints,obj,SOLVER))
+                        #Below using executor
+                        # tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
                         #
                         obj=cp.Maximize(variables[0][k])
-                        tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
-                    wait(tasklist)
-                    resultlist=[task.result() for task in tasklist]
+                        #Below using mp Pool
+                        tasklist.append((variables,constraints,obj,SOLVER))
+                        #Below using executor
+                        # tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
+                    #Below using mp Pool
+                    resultlist=mppool.starmap(lpsolve,tasklist)
+                    mppool.terminate()
+                    # print(resultlist)
+                    #Below using executor
+                    # wait(tasklist)
+                    # resultlist=[task.result() for task in tasklist]
+                    # print(resultlist)
                     for k in range(self.inputSize):
                         if resultlist[k*2]>=input_neurons[k].concrete_lower:
                             input_neurons[k].concrete_lower=resultlist[k*2]
@@ -269,6 +282,7 @@ class network(object):
                             input_neurons[k].algebra_upper=np.array([resultlist[k*2+1]])
 
                     #Refresh the uncertain ReLu's lowerbound
+                    mppool=mp.Pool(WORKERS)
                     count=0
                     tasklist=[]
                     for k in range(len(self.layers)-1):
@@ -279,9 +293,16 @@ class network(object):
                             for p in range(cur_layer.size):
                                 if next_layer.neurons[p].certain_flag==0:
                                     obj=cp.Minimize(variables[k][p])
-                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
-                    wait(tasklist)
-                    resultlist=[task.result() for task in tasklist]
+                                    #Below using mp Pool
+                                    tasklist.append((variables,constraints,obj,SOLVER))
+                                    #Below using executor
+                                    # tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
+                    # Below using mp Pool
+                    resultlist=mppool.starmap(lpsolve,tasklist)
+                    mppool.terminate()
+                    # Below using executor
+                    # wait(tasklist)
+                    # resultlist=[task.result() for task in tasklist]
                     index=0
                     for k in range(len(self.layers)-1):
                         cur_layer=self.layers[k]
@@ -298,6 +319,7 @@ class network(object):
                                     index+=1
 
                     #Refresh the uncertain ReLu's upperbound
+                    mppool=mp.Pool(WORKERS)
                     tasklist=[]
                     for k in range(len(self.layers)-1):
                         cur_layer=self.layers[k]
@@ -307,9 +329,16 @@ class network(object):
                             for p in range(cur_layer.size):
                                 if next_layer.neurons[p].certain_flag==0:
                                     obj=cp.Maximize(variables[k][p])
-                                    tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
-                    wait(tasklist)
-                    resultlist=[task.result() for task in tasklist]
+                                    #Below using mp Pool
+                                    tasklist.append((variables,constraints,obj,SOLVER))
+                                    #Below using executor
+                                    # tasklist.append(executor.submit(lpsolve,variables,constraints,obj,solver=SOLVER))
+                    # Below using mp Pool
+                    resultlist=mppool.starmap(lpsolve,tasklist)
+                    mppool.terminate()
+                    # Below using executor
+                    # wait(tasklist)
+                    # resultlist=[task.result() for task in tasklist]
                     index=0
                     for k in range(len(self.layers)-1):
                         cur_layer=self.layers[k]
@@ -1072,12 +1101,12 @@ class network(object):
 def main():
     start = time.time()
     net=network()
-    # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
+    net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
+    net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
 
-    net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv')
-    net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=32,SPLIT_NUM=0,SOLVER=cp.CBC)        
+    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv')
+    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=32,SPLIT_NUM=0,SOLVER=cp.CBC)        
     # net.load_robustness('properties/mnist_0_local_property.in',0.054,TRIM=True)
 
     # net.deeppoly()
