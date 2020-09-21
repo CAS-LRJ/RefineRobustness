@@ -1152,25 +1152,25 @@ def main():
     net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
     property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
     disturbance_list=[0.02,0.03,0.04]
-    result_list=[]
+    rlist=[]
     for net_i in net_list[:1]:
-        property_list=[]
+        plist=[]
         for property_i in property_list[:1]:
             net=network()
             net.load_nnet(net_i)
             delta_base=net.find_max_disturbance(PROPERTY=property_i)
-            delta_list=[]
+            dlist=[]
             for disturbance_i in disturbance_list[:1]:
                 print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
                 start=time.time()
                 net=network()
                 net.load_nnet(net_i)
-                delta_list.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
                 end=time.time()
                 print("Finished Time:",end-start)
-            property_list.append(delta_list)
-        result_list.append(property_list)
-    print(result_list)
+            plist.append(dlist)
+        rlist.append(plist)
+    print(rlist)
     # start = time.time()
     # net=network()
     # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
