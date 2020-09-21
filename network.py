@@ -1105,7 +1105,7 @@ def main():
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
     # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
 
-    net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_1_testNetworkB.rlv')
+    net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv')
     net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)        
     # net.load_robustness('properties/mnist_0_local_property.in',0.054,TRIM=True)
 
