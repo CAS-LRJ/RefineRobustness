@@ -1153,14 +1153,14 @@ def main():
     property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
     disturbance_list=[0.02,0.03,0.04]
     rlist=[]
-    for net_i in net_list[:1]:
+    for net_i in net_list:
         plist=[]
-        for property_i in property_list[:1]:
+        for property_i in property_list:
             net=network()
             net.load_nnet(net_i)
             delta_base=net.find_max_disturbance(PROPERTY=property_i)
             dlist=[]
-            for disturbance_i in disturbance_list[:1]:
+            for disturbance_i in disturbance_list:
                 print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
                 start=time.time()
                 net=network()
