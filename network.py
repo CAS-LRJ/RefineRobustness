@@ -1151,7 +1151,8 @@ class network(object):
 def main():
     net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
     property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
-    disturbance_list=[0.02,0.03,0.04]
+    # disturbance_list=[0.02,0.03,0.04]
+    disturbance_list=[0.05,0.06]
     rlist=[]
     for net_i in net_list:
         plist=[]
