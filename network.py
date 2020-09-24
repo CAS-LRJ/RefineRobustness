@@ -26,6 +26,7 @@ class neuron(object):
         weight (numpy ndarray of float): neuron's weight        
         bias (float): neuron's bias
         certain_flag (int): 0 uncertain 1 activated(>=0) 2 deactivated(<=0)
+        prev_abs_mode (int): indicates abstract mode of relu nodes in previous iteration.0 use first,1 use second
     """
 
     def __init__(self):
@@ -39,12 +40,14 @@ class neuron(object):
         self.concrete_lowest_upper=None
         self.weight=None
         self.bias=None
+        self.prev_abs_mode=None
         self.certain_flag=0
     
     def clear(self):
         self.certain_flag=0
         self.concrete_highest_lower=None
         self.concrete_lowest_upper=None
+        self.prev_abs_mode=None
 
     def print(self):
         print('algebra_lower:',self.algebra_lower)
@@ -101,6 +104,7 @@ class network(object):
         unsafe_region (list of ndarray):coeffient of output and a constant
         property_flag (bool) : indicates the network have verification layer or not
         property_region (float) : Area of the input box
+        abs_mode_changed (int) : count of uncertain relu abstract mode changed
         self.MODE_ROBUSTNESS=0
         self.MODE_QUANTITIVE=1
     """
@@ -119,6 +123,7 @@ class network(object):
         self.layers=None
         self.property_flag=None
         self.property_region=None
+        self.abs_mode_changed=None
     
     def clear(self):
         for i in range(len(self.layers)):
@@ -130,7 +135,8 @@ class network(object):
         if self.property_flag==True:
                 self.layers.pop()
                 self.property_flag=False
-        self.load_robustness(PROPERTY,DELTA,TRIM=TRIM)        
+        self.load_robustness(PROPERTY,DELTA,TRIM=TRIM)
+        delta_list=[self.layers[0].neurons[i].concrete_upper-self.layers[0].neurons[i].concrete_lower for i in range(self.inputSize)]
         self.clear()
         self.deeppoly()
         verify_layer=self.layers[-1]
@@ -142,6 +148,8 @@ class network(object):
                 break
         if verify_neuron_upper[verify_list[0]]<0:
             print("Property Verified")
+            if MODE==self.MODE_ROBUSTNESS:
+                return True
             return
         # print(verify_neuron_upper)
         # print(verify_list)
@@ -158,7 +166,8 @@ class network(object):
                 cur_split.append([self.layers[0].neurons[j].concrete_lower,self.layers[0].neurons[j].concrete_upper])
             split_list.append(cur_split)
         
-        executor = ProcessPoolExecutor(max_workers=WORKERS)
+        # Below using executor
+        # executor = ProcessPoolExecutor(max_workers=WORKERS)
         obj=None
         prob=None
         constraints=None
@@ -186,6 +195,7 @@ class network(object):
                 self.clear()
                 for j in range(MAX_ITER):
                     self.deeppoly()
+                    print("Abstract Mode Changed:",self.abs_mode_changed)
                     if (j==0) and (verification_neuron.concrete_upper>0):
                         unsafe_set_deeppoly.add(splits_num)
                     constraints=[]
@@ -395,7 +405,8 @@ class network(object):
                 if prob.status==cp.OPTIMAL:
                     area=1
                     for j in range(self.inputSize):
-                        area*=(self.layers[0].neurons[j].concrete_upper-self.layers[0].neurons[j].concrete_lower)/DELTA/2
+                        # area*=(self.layers[0].neurons[j].concrete_upper-self.layers[0].neurons[j].concrete_lower)/DELTA/2 OLD BUG
+                        area*=(self.layers[0].neurons[j].concrete_upper-self.layers[0].neurons[j].concrete_lower)/delta_list[j]
                     # self.layers[0].print()
                     print("Split:",splits_num,"Area:",area*100)
                     if area>0:
@@ -811,6 +822,7 @@ class network(object):
                 cur_neuron.concrete_lowest_upper=cur_neuron.concrete_upper            
 
 
+        self.abs_mode_changed=0
         for i in range(len(self.layers)-1):
             # print('i=',i)
             pre_layer=self.layers[i]
@@ -852,7 +864,12 @@ class network(object):
                         cur_neuron.concrete_highest_lower=0
                         cur_neuron.concrete_lowest_upper=0
                         cur_neuron.certain_flag=2
-                    elif pre_neuron.concrete_highest_lower+pre_neuron.concrete_lowest_upper<=0:                    
+                    elif pre_neuron.concrete_highest_lower+pre_neuron.concrete_lowest_upper<=0:
+                        #Relu abs mode changed
+                        if (cur_neuron.prev_abs_mode!=None) and (cur_neuron.prev_abs_mode!=0):
+                            self.abs_mode_changed+=1
+                        cur_neuron.prev_abs_mode=0
+
                         cur_neuron.algebra_lower=np.zeros(cur_layer.size+1)
                         aux=pre_neuron.concrete_lowest_upper/(pre_neuron.concrete_lowest_upper-pre_neuron.concrete_highest_lower)
                         cur_neuron.algebra_upper=np.zeros(cur_layer.size+1)
@@ -860,6 +877,11 @@ class network(object):
                         cur_neuron.algebra_upper[-1]=-aux*pre_neuron.concrete_highest_lower
                         pre(cur_neuron,i)
                     else:
+                        #Relu abs mode changed
+                        if (cur_neuron.prev_abs_mode!=None) and (cur_neuron.prev_abs_mode!=1):
+                            self.abs_mode_changed+=1
+                        cur_neuron.prev_abs_mode=1
+
                         cur_neuron.algebra_lower=np.zeros(cur_layer.size+1)
                         cur_neuron.algebra_lower[j]=1
                         aux=pre_neuron.concrete_lowest_upper/(pre_neuron.concrete_lowest_upper-pre_neuron.concrete_highest_lower)
@@ -1146,42 +1168,72 @@ class network(object):
             else:
                 R=mid-1
         return ans
-
+    
+    def find_max_disturbance_lp(self,PROPERTY,L,R,TRIM,SOLVER=cp.GUROBI):
+        ans=L
+        while L<=R:
+            mid=int((L+R)/2)
+            if self.verify_lp_split(PROPERTY=PROPERTY,DELTA=mid/1000,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=TRIM,SOLVER=SOLVER,MODE=1):
+                ans=mid/1000
+                L=mid+1
+            else:
+                R=mid-1
+        return ans
 
 def main():
-    net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
-    property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
-    # disturbance_list=[0.02,0.03,0.04]
-    disturbance_list=[0.05,0.06]
+    # #Below is Acas Split experiment
+    # net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
+    # property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
+    # # disturbance_list=[0.02,0.03,0.04]
+    # disturbance_list=[0.05,0.06]
+    # rlist=[]
+    # for net_i in net_list:
+    #     plist=[]
+    #     for property_i in property_list:
+    #         net=network()
+    #         net.load_nnet(net_i)
+    #         delta_base=net.find_max_disturbance(PROPERTY=property_i)
+    #         dlist=[]
+    #         for disturbance_i in disturbance_list:
+    #             print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
+    #             start=time.time()
+    #             net=network()
+    #             net.load_nnet(net_i)
+    #             dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+    #             end=time.time()
+    #             print("Finished Time:",end-start)
+    #         plist.append(dlist)
+    #     rlist.append(plist)
+    # print(rlist)
+
+    # #Below is Mnist max robustness experiment
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,3)] #8
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(1)] #3
     rlist=[]
     for net_i in net_list:
         plist=[]
         for property_i in property_list:
+            print("Net:",net_i,"Property:",property_i)
             net=network()
-            net.load_nnet(net_i)
-            delta_base=net.find_max_disturbance(PROPERTY=property_i)
-            dlist=[]
-            for disturbance_i in disturbance_list:
-                print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
-                start=time.time()
-                net=network()
-                net.load_nnet(net_i)
-                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
-                end=time.time()
-                print("Finished Time:",end-start)
-            plist.append(dlist)
+            net.load_rlv(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)
+            print("DeepPoly Max Verified Distrubance:",delta_base)
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+30),TRIM=True,SOLVER=cp.GUROBI)
+            print("Our method Max Verified Disturbance:",lp_ans)
+            plist.append([delta_base,lp_ans])
         rlist.append(plist)
-    print(rlist)
+    print(plist)
+
     # start = time.time()
     # net=network()
     # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # print(net.find_max_disturbance(PROPERTY='properties/local_robustness_4.txt'))
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
-    # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC)
+    # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=12,SPLIT_NUM=5,SOLVER=cp.CBC,TRIM=True)
 
-    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_4_testNetworkB.rlv')
+    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv')
     # print(net.find_max_disturbance(PROPERTY='properties/mnist_0_local_property.in',TRIM=True))
-    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.06,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)        
+    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=1,TRIM=True,MAX_ITER=5,WORKERS=12,SPLIT_NUM=0,SOLVER=cp.CBC)        
     # net.load_robustness('properties/mnist_0_local_property.in',0.045,TRIM=True)
 
     # net.deeppoly()
