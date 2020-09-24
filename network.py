@@ -1209,34 +1209,34 @@ def main():
     # print(rlist)
 
     # #Below is Mnist max robustness experiment
-    # net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,3)] #8
-    # property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(1)] #3
-    # rlist=[]
-    # for net_i in net_list:
-    #     plist=[]
-    #     for property_i in property_list:
-    #         print("Net:",net_i,"Property:",property_i)
-    #         net=network()
-    #         net.load_rlv(net_i)
-    #         delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
-    #         lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
-    #         print("DeepPoly Max Verified Distrubance:",delta_base)
-    #         print("Our method Max Verified Disturbance:",lp_ans)
-    #         plist.append([delta_base,lp_ans])
-    #     rlist.append(plist)
-    # print(plist)
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,8)] #8
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)] #3
+    rlist=[]
+    for net_i in net_list:
+        plist=[]
+        for property_i in property_list:
+            print("Net:",net_i,"Property:",property_i)
+            net=network()
+            net.load_rlv(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
+            print("DeepPoly Max Verified Distrubance:",delta_base)
+            print("Our method Max Verified Disturbance:",lp_ans)
+            plist.append([delta_base,lp_ans])
+        rlist.append(plist)
+    print(plist)
 
-    start = time.time()
-    net=network()
+    # start = time.time()
+    # net=network()
     # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # print(net.find_max_disturbance(PROPERTY='properties/local_robustness_4.txt'))
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
     # net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.085,MAX_ITER=5,WORKERS=12,SPLIT_NUM=5,SOLVER=cp.CBC,TRIM=True)
 
-    net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv')
+    # net.load_rlv('rlv/caffeprototxt_AI2_MNIST_FNN_2_testNetworkB.rlv')
     # print(net.find_max_disturbance(PROPERTY='properties/mnist_0_local_property.in',TRIM=True))
-    net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.047,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
-    net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.048,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
+    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.047,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
+    # net.verify_lp_split(PROPERTY='properties/mnist_0_local_property.in',DELTA=0.048,TRIM=True,MAX_ITER=5,WORKERS=96,SPLIT_NUM=0,SOLVER=cp.CBC)
     # net.load_robustness('properties/mnist_0_local_property.in',0.045,TRIM=True)
 
     # net.deeppoly()
