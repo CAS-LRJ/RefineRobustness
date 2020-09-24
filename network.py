@@ -1169,11 +1169,11 @@ class network(object):
                 R=mid-1
         return ans
     
-    def find_max_disturbance_lp(self,PROPERTY,L,R,TRIM,SOLVER=cp.GUROBI):
+    def find_max_disturbance_lp(self,PROPERTY,L,R,TRIM,WORKERS=12,SOLVER=cp.GUROBI):
         ans=L
         while L<=R:
             mid=int((L+R)/2)
-            if self.verify_lp_split(PROPERTY=PROPERTY,DELTA=mid/1000,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=TRIM,SOLVER=SOLVER,MODE=1):
+            if self.verify_lp_split(PROPERTY=PROPERTY,DELTA=mid/1000,MAX_ITER=5,SPLIT_NUM=0,WORKERS=WORKERS,TRIM=TRIM,SOLVER=SOLVER,MODE=1):
                 print("Disturbance:",mid/1000,"Success!")
                 ans=mid/1000
                 L=mid+1
@@ -1220,7 +1220,7 @@ def main():
             net.load_rlv(net_i)
             delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)
             print("DeepPoly Max Verified Distrubance:",delta_base)
-            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,SOLVER=cp.CBC)
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
             print("Our method Max Verified Disturbance:",lp_ans)
             plist.append([delta_base,lp_ans])
         rlist.append(plist)
