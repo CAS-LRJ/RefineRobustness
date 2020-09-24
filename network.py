@@ -1226,8 +1226,8 @@ def main():
     #     rlist.append(plist)
     # print(plist)
 
-    # start = time.time()
-    # net=network()
+    start = time.time()
+    net=network()
     # net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet') 
     # print(net.find_max_disturbance(PROPERTY='properties/local_robustness_4.txt'))
     # net.load_robustness('properties/local_robustness_2.txt',0.05)
