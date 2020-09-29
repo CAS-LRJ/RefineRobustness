@@ -1402,7 +1402,7 @@ def main():
                 print(property_i,'DeepPoly Failed!')
 
             start=time.time()
-            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=True,SOLVER=cp.GUROBI,MODE=1):
+            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1):
                 print(property_i,'DeepSRGR Success!')
                 count_deepsrgr+=1
                 pass_list.append(index)
