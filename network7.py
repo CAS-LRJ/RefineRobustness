@@ -1418,6 +1418,7 @@ def main():
                 maxtime=runningtime
             avgtime+=runningtime
             index+=1
+        print('DeepPoly Verified:',count_deeppoly,'DeepSRGR Verified:',count_deepsrgr)
         print('Min Time:',mintime,'Max Time',maxtime,'Avg Time',avgtime/50)
         print('Passlist:',pass_list)
         print('Nopasslist:',nopass_list)
