@@ -1373,7 +1373,7 @@ def main():
     #Below is Mnist batch verify experiment
     net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(6,7)]
     property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
-    delta=0.015
+    delta=0.021
     for net_i in net_list:
         pass_list=[]
         nopass_list=[]
