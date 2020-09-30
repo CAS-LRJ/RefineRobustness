@@ -1371,9 +1371,9 @@ def main():
     # print(plist)
 
     #Below is Mnist batch verify experiment
-    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,6)]
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
     property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
-    delta=0.026
+    delta=0.037
     for net_i in net_list:
         pass_list=[]
         nopass_list=[]
@@ -1421,7 +1421,7 @@ def main():
         print('DeepPoly Verified:',count_deeppoly,'DeepSRGR Verified:',count_deepsrgr)
         print('Min Time:',mintime,'Max Time',maxtime,'Avg Time',avgtime/50)
         print('Passlist:',pass_list)
-        print('Nopasslist:',nopass_list)
+        print('Nopasslist:',nopass_list)    
 
     # start = time.time()
     # net=network()
