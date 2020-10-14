@@ -1,4 +1,4 @@
-# DeepSRGR: A Spurious Region Guided Refinement for Abstract Domains
+# DeepSRGR: A Spurious Region Guided Refinement for DeepPoly
 ## Requirements
 We highly recommend conda([anaconda](https://www.anaconda.com/products/individual)/[miniconda](https://docs.conda.io/en/latest/miniconda.html)) to install all the requirements.
 ### Linux (CentOS 7.7 recommended)
@@ -51,4 +51,6 @@ An example of property file _local\_robustness\_1.txt_:
 0 1 0 -1 0 0
 0 1 0 0 -1 0
 ```
-The ACASXu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property of _**A**x+**b**<=0_
+The ACASXu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal in _OUT0_ to _OUT4_.
+
+There is some existing property files in _property_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
