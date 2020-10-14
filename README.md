@@ -22,8 +22,11 @@ pip install cylp
 ### Example
 An example of _main()_ in network.py
 ```
+# Create a network instance
 net=network()
+# Load the network file
 net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet')
+# Verify the property
 net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.064,MAX_ITER=5,WORKERS=12,SPLIT_NUM=5,SOLVER=cp.GUROBI)
 ```
 This code verifies 2nd local robustness property of ACASXu_4_2 network which radius is 0.064.
@@ -53,4 +56,18 @@ An example of property file _local\_robustness\_1.txt_:
 ```
 The ACASXu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal in _OUT0_ to _OUT4_.
 
-There is some existing property files in _property_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
+There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
+
+### Parameters
+PROPERTY,DELTA,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=False,SOLVER=cp.GUROBI,MODE=0
+- _<PROPERTY>_ This is the property file.
+- _<DELTA>_ Indicates the radius to verify.
+- _<SPLIT_NUM>_ The number of dimensions to split, default value is 0.
+- _<WORKERS>_ The max number of processes, default value is 12.
+- _<TRIM>_ Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
+- _<SOLVER>_ The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
+- _<MODE>_ Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
+
+Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
+- _<L>_ The lower bound to find max robust disturbance
+- _<R>_ The upper bound to find max robust disturbance
