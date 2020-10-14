@@ -27,8 +27,9 @@ net.load_nnet('nnet/ACASXU_experimental_v2a_4_2.nnet')
 net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.064,MAX_ITER=5,WORKERS=12,SPLIT_NUM=5,SOLVER=cp.GUROBI)
 ```
 This code verifies 2nd local robustness property of ACASXu_4_2 network which radius is 0.064.
-### Network Format
+### Network File Format
 Now DeepSRGR supports .rlv and .nnet file as network file. There is some existing network in _nnet_ and _rlv_ folder.
+
 To load _nnet_ file using:
 ```
 net.load_nnet(args)
@@ -37,3 +38,17 @@ To load _rlv_ file using:
 ```
 net.load_rlv(args)
 ```
+### Property File Format
+An example of property file _local\_robustness\_1.txt_:
+```
+0.6719
+0.0019
+-0.4967
+0.4694
+-0.4532
+-1 1 0 0 0 0
+0 1 -1 0 0 0
+0 1 0 -1 0 0
+0 1 0 0 -1 0
+```
+The ACASXu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property of _**A**x+**b**<=0_
