@@ -54,19 +54,38 @@ An example of property file _local\_robustness\_1.txt_:
 0 1 0 -1 0 0
 0 1 0 0 -1 0
 ```
-The ACASXu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal in _OUT0_ to _OUT4_.
+The ACAS Xu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal in _OUT0_ to _OUT4_.
 
-There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
+There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACAS Xu and _mnist\_x\_local\_property.in_ is for MNIST.
 
 ### Parameters
 - ```PROPERTY``` This is the property file.
-- _DELTA_ Indicates the radius to verify.
+- ```DELTA``` Indicates the radius to verify.
 - ```SPLIT_NUM``` The number of dimensions to split, default value is 0.
-- _WORKERS_ The max number of processes, default value is 12.
-- _TRIM_ Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
-- _SOLVER_ The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
-- _MODE_ Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
+- ```WORKERS``` The max number of processes, default value is 12.
+- ```TRIM``` Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
+- ```SOLVER``` The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
+- ```MODE``` Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
 
 Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
-- _L_ The lower bound to find max robust disturbance
-- _R_ The upper bound to find max robust disturbance
+- ```L``` The lower bound to find max robust disturbance
+- ```R``` The upper bound to find max robust disturbance
+
+## Experiment
+We evaluate our method in three different types of experiment.
+
+### Improvement in precision
+
+#### TO-DO
+
+### Robustness verification performance
+
+#### TO-DO
+
+### Quantitative robustness verification on ACAS Xu networks
+
+#### TO-DO
+
+## License and Copyright
+
+#### TO-DO
