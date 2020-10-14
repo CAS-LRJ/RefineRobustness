@@ -59,14 +59,14 @@ The ACASXu network has 5 inputs which is introduced in first 5 lines. The follow
 There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
 
 ### Parameters
-- _<PROPERTY>_ This is the property file.
-- _<DELTA>_ Indicates the radius to verify.
-- _<SPLIT_NUM>_ The number of dimensions to split, default value is 0.
-- _<WORKERS>_ The max number of processes, default value is 12.
-- _<TRIM>_ Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
-- _<SOLVER>_ The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
-- _<MODE>_ Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
+- ```PROPERTY``` This is the property file.
+- _DELTA_ Indicates the radius to verify.
+- ```SPLIT_NUM``` The number of dimensions to split, default value is 0.
+- _WORKERS_ The max number of processes, default value is 12.
+- _TRIM_ Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
+- _SOLVER_ The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
+- _MODE_ Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
 
 Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
-- _<L>_ The lower bound to find max robust disturbance
-- _<R>_ The upper bound to find max robust disturbance
+- _L_ The lower bound to find max robust disturbance
+- _R_ The upper bound to find max robust disturbance
