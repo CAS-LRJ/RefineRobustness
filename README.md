@@ -59,7 +59,6 @@ The ACASXu network has 5 inputs which is introduced in first 5 lines. The follow
 There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACASXu and _mnist\_x\_local\_property.in_ is for MNIST.
 
 ### Parameters
-PROPERTY,DELTA,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=False,SOLVER=cp.GUROBI,MODE=0
 - _<PROPERTY>_ This is the property file.
 - _<DELTA>_ Indicates the radius to verify.
 - _<SPLIT_NUM>_ The number of dimensions to split, default value is 0.
