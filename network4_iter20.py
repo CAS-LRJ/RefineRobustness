@@ -1372,7 +1372,8 @@ def main():
 
     #Below is Mnist batch verify experiment
     net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
-    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in [1, 8, 9, 12, 15, 17, 19, 21, 23, 24, 25, 35, 36, 38, 47]]
+    property_index=[1, 8, 9, 12, 15, 17, 19, 21, 23, 24, 25, 35, 36, 38, 47]
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in property_index]
     delta=0.037
     for net_i in net_list:
         pass_list=[]
@@ -1405,10 +1406,10 @@ def main():
             if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=20,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1):
                 print(property_i,'DeepSRGR Success!')
                 count_deepsrgr+=1
-                pass_list.append(index)
+                pass_list.append(property_index[index])
             else:
                 print(property_i,'DeepSRGR Failed!')
-                nopass_list.append(index)
+                nopass_list.append(property_index[index])
             end=time.time()
             runningtime=end-start
             print(property_i,'Running Time',runningtime)
