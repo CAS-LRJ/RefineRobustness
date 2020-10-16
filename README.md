@@ -122,8 +122,7 @@ The following example code verifies a batch of properties of mnist_fnn_4 in a gi
             net.load_robustness(property_i,delta,TRIM=True)
             net.deeppoly()
             flag=True
-            for neuron_i in net.layers[-1].neurons:
-                # print(neuron_i.concrete_upper)
+            for neuron_i in net.layers[-1].neurons:                
                 if neuron_i.concrete_upper>0:
                     flag=False
             if flag==True:
@@ -184,8 +183,6 @@ The quantitative robustness experiment can give an over-approximation of the uns
     print(rlist)
 ```
 
-## Contributor
-
 ## License and Copyright
 
-#### TO-DO
+Licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0)
