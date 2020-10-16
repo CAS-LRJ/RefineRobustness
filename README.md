@@ -76,7 +76,26 @@ We evaluate our method in three different types of experiment.
 
 ### Improvement in precision
 
-#### TO-DO
+The following example code calculates the max robustness radius of mnist_fnn_1 for three different local robustness.
+```main()
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(1,2)]
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)]
+    rlist=[]
+    for net_i in net_list:
+        plist=[]
+        for property_i in property_list:
+            print("Net:",net_i,"Property:",property_i)
+            net=network()
+            net.load_rlv(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
+            print("DeepPoly Max Verified Distrubance:",delta_base)
+            print("Our method Max Verified Disturbance:",lp_ans)
+            plist.append([delta_base,lp_ans])
+        rlist.append(plist)
+    print(rlist)
+```
+*_Hint_ Only the find_max_distrubance_lp uses delta_base+63 which may not sufficient. If the results are equal to delta_base+0.063, please consider using a larger '''R'''*
 
 ### Robustness verification performance
 
