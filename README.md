@@ -65,7 +65,7 @@ There are some existing property files in the _properties_ folder, where _local\
 - ```WORKERS``` The maximum number of processes. The default value is 12.
 - ```TRIM``` Whether to trim the input interval, e.g. [-0.2, 0.7] to [0, 0.7]. The default value is _FALSE_.
 - ```SOLVER``` The linear programming solver. The default value is _cp.GUROBI_. Please use _cp.CBC_ if _GUROBI_ is not installed.
-- ```MODE``` Verification Mode, where 0 means _QUANTITIVE_ and 1 means _ROBUSTNESS_. In _QUANTITVE_ mode, the program will give a over-approximation of the unsafe region, while in the _ROBUSTNESS_ mode, the program only cares about whether it is robust or not. The default value is 0.
+- ```MODE``` Verification Mode, where 0 means _QUANTITIVE_ and 1 means _ROBUSTNESS_. In the _QUANTITVE_ mode, the program will give an over-approximation of the unsafe region, while in the _ROBUSTNESS_ mode, the program only cares about whether it is robust or not. The default value is 0.
 - ```USE_OPT_2``` Whether to use Optimization 2. The default value is False.
 
 Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
