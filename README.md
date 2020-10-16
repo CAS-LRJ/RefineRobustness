@@ -186,6 +186,10 @@ The quantitative robustness experiment can give an over-approximation of the uns
 
 We store our experiment log in the _log_ folder, where exp1, exp2, and exp3 correspond to the three experiments above, respectively.
 
+## Preprint
+
+We upload our paper to [arxiv](https://arxiv.org/abs/2010.07722)
+
 ## License and Copyright
 
 Licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0)
