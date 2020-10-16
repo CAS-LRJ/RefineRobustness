@@ -72,7 +72,7 @@ Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
 - ```L``` The lower bound to find maximum robust disturbance.
 - ```R``` The upper bound to find maximum robust disturbance.
 
-## Experiment
+## Experiments
 We evaluate our method in three experiments.
 
 ### Improvement in precision
