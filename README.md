@@ -31,18 +31,18 @@ net.verify_lp_split(PROPERTY='properties/local_robustness_2.txt',DELTA=0.064,MAX
 ```
 This code verifies 2nd local robustness property of ACASXu_4_2 network which radius is 0.064.
 ### Network File Format
-Now DeepSRGR supports .rlv and .nnet file as network file. There is some existing network in _nnet_ and _rlv_ folder.
+Now DeepSRGR supports .rlv and .nnet files as network files. There are some existing networks in the _nnet_ and _rlv_ folders.
 
-To load _nnet_ file using:
+To load an _nnet_ file using:
 ```
 net.load_nnet(args)
 ```
-To load _rlv_ file using:
+To load an _rlv_ file using:
 ```
 net.load_rlv(args)
 ```
 ### Property File Format
-An example of property file _local\_robustness\_1.txt_:
+An example of a property file _local\_robustness\_1.txt_:
 ```
 0.6719
 0.0019
@@ -54,14 +54,14 @@ An example of property file _local\_robustness\_1.txt_:
 0 1 0 -1 0 0
 0 1 0 0 -1 0
 ```
-The ACAS Xu network has 5 inputs which is introduced in first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal in _OUT0_ to _OUT4_.
+The ACAS Xu network has 5 inputs which are introduced in the first 5 lines. The following 4 lines describe a property in the form of _**A**x+**b**<=0_. In this case, the last 4 lines indicates that _OUT1_ is the minimal among _OUT0_ to _OUT4_.
 
-There is some existing property files in _properties_ folder. _local\_robustness\_x.txt_ is for ACAS Xu and _mnist\_x\_local\_property.in_ is for MNIST.
+There are some existing property files in the _properties_ folder, where _local\_robustness\_x.txt_ is for ACAS Xu and _mnist\_x\_local\_property.in_ is for MNIST.
 
 ### Parameters
 - ```PROPERTY``` This is the property file.
-- ```DELTA``` Indicates the radius to verify.
-- ```SPLIT_NUM``` The number of dimensions to split, default value is 0.
+- ```DELTA```  The radius to verify.
+- ```SPLIT_NUM``` The number of dimensions to split, default value is 0. E.g. ```SPLIT_NUM=5``` means the number of blocks in the split is 2<sup>5</sup>
 - ```WORKERS``` The max number of processes, default value is 12.
 - ```TRIM``` Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
 - ```SOLVER``` The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
