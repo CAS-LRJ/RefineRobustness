@@ -61,7 +61,7 @@ There are some existing property files in the _properties_ folder, where _local\
 ### Parameters
 - ```PROPERTY``` This is the property file.
 - ```DELTA```  The radius to verify.
-- ```SPLIT_NUM``` The number of dimensions to split, default value is 0. E.g. ```SPLIT_NUM=5``` means the number of blocks in the split is 2<sup>5</sup>
+- ```SPLIT_NUM``` The number of dimensions to split, default value is 0. E.g. ```SPLIT_NUM=5``` implies that the number of blocks in the split is 2<sup>5</sup>=32.
 - ```WORKERS``` The max number of processes, default value is 12.
 - ```TRIM``` Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
 - ```SOLVER``` The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
