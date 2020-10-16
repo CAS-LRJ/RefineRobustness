@@ -62,8 +62,8 @@ There are some existing property files in the _properties_ folder, where _local\
 - ```PROPERTY``` This is the property file.
 - ```DELTA```  The radius to verify.
 - ```SPLIT_NUM``` The number of dimensions to split. The default value is 0. E.g. ```SPLIT_NUM=5``` implies that the number of blocks in the split is 2<sup>5</sup>=32.
-- ```WORKERS``` The max number of processes. The default value is 12.
-- ```TRIM``` Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_. The default value is _FALSE_.
+- ```WORKERS``` The maximum number of processes. The default value is 12.
+- ```TRIM``` Whether to trim the input interval, e.g. [-0.2, 0.7] to [0, 0.7]. The default value is _FALSE_.
 - ```SOLVER``` The linear programming solver. The default value is _cp.GUROBI_. Please use _cp.CBC_ if _GUROBI_ is not installed.
 - ```MODE``` Verification Mode, where 0 means _QUANTITIVE_ and 1 means _ROBUSTNESS_. In _QUANTITVE_ mode, the program will give a over-approximation of the unsafe region, while in the _ROBUSTNESS_ mode, the program only cares about whether it is robust or not. The default value is 0.
 - ```USE_OPT_2``` Whether to use Optimization 2. The default value is False.
