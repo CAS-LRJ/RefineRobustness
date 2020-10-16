@@ -1,6 +1,6 @@
 # DeepSRGR: A Spurious Region Guided Refinement for DeepPoly
 ## Requirements
-We highly recommend conda([anaconda](https://www.anaconda.com/products/individual)/[miniconda](https://docs.conda.io/en/latest/miniconda.html)) to install all the requirements.
+We highly recommend conda ([anaconda](https://www.anaconda.com/products/individual)/[miniconda](https://docs.conda.io/en/latest/miniconda.html)) to install all the requirements.
 ### Linux (CentOS 7.7 recommended)
 The instructions to install all the requirements for Linux are:
 ```
