@@ -95,7 +95,7 @@ The following example code calculates the max robustness radius of mnist_fnn_1 f
         rlist.append(plist)
     print(rlist)
 ```
-*_Hint_ Only the find_max_distrubance_lp uses delta_base+63 which may not sufficient. If the results are equal to delta_base+0.063, please consider using a larger '''R'''*
+**_Hint_ Only the find_max_distrubance_lp uses delta_base+63 which may not sufficient. If the results are equal to delta_base+0.063, please consider using a larger ```R```**
 
 ### Robustness verification performance
 
