@@ -69,8 +69,8 @@ There are some existing property files in the _properties_ folder, where _local\
 - ```USE_OPT_2``` Whether to use Optimization 2. The default value is False.
 
 Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
-- ```L``` The lower bound to find max robust disturbance.
-- ```R``` The upper bound to find max robust disturbance.
+- ```L``` The lower bound to find maximum robust disturbance.
+- ```R``` The upper bound to find maximum robust disturbance.
 
 ## Experiment
 We evaluate our method in three experiments.
