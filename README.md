@@ -188,7 +188,7 @@ We store our experiment log in the _log_ folder, where exp1, exp2, and exp3 corr
 
 ## Preprint
 
-We upload our paper to [arxiv](https://arxiv.org/abs/2010.07722)
+We upload our paper to [arxiv](https://arxiv.org/abs/2010.07722).
 
 ## License and Copyright
 
