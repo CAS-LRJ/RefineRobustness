@@ -1,0 +1,7922 @@
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_2.txt Delta: 0.064
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 2
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Refreshed ReLu nodes: 12
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 15.625
+Finished Time: 283.80032324790955
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_2.txt Delta: 0.074
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Refreshed ReLu nodes: 7
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Refreshed ReLu nodes: 8
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 7
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 9
+Split: 14 Infeasible
+Refreshed ReLu nodes: 15
+Split: 15 Infeasible
+Split: 16 Infeasible
+Refreshed ReLu nodes: 13
+Split: 17 Infeasible
+Refreshed ReLu nodes: 12
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Refreshed ReLu nodes: 8
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 62.5
+Finished Time: 622.8009793758392
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_2.txt Delta: 0.08399999999999999
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 11
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Refreshed ReLu nodes: 28
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Refreshed ReLu nodes: 16
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 9
+Split: 4 Area: 0.5575723423881778
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 12
+Split: 5 Area: 0.45842963973630996
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 8
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 9
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Refreshed ReLu nodes: 3
+Split: 14 Infeasible
+Refreshed ReLu nodes: 3
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Refreshed ReLu nodes: 7
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 6
+Split: 20 Area: 1.785705775220247
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 7
+Split: 21 Area: 0.7479077837179112
+Refreshed ReLu nodes: 11
+Split: 22 Infeasible
+Refreshed ReLu nodes: 9
+Split: 23 Infeasible
+Refreshed ReLu nodes: 9
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Refreshed ReLu nodes: 11
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 9
+Split: 28 Infeasible
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Refreshed ReLu nodes: 10
+Split: 30 Infeasible
+Refreshed ReLu nodes: 10
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 3.549615541062646
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 11
+Split: 0 Infeasible
+Refreshed ReLu nodes: 8
+Split: 1 Infeasible
+Refreshed ReLu nodes: 15
+Split: 2 Infeasible
+Refreshed ReLu nodes: 7
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Split: 4 Area: 2.414984546257492
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 5 Area: 2.6452658986333204
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 8
+Split: 7 Infeasible
+Refreshed ReLu nodes: 14
+Split: 8 Infeasible
+Refreshed ReLu nodes: 5
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 13
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Refreshed ReLu nodes: 3
+Split: 14 Infeasible
+Refreshed ReLu nodes: 3
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Refreshed ReLu nodes: 5
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 2
+Split: 20 Area: 2.8883139209576516
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Split: 21 Area: 2.8875263167240885
+Refreshed ReLu nodes: 11
+Split: 22 Infeasible
+Refreshed ReLu nodes: 9
+Split: 23 Infeasible
+Refreshed ReLu nodes: 7
+Split: 24 Infeasible
+Refreshed ReLu nodes: 9
+Split: 25 Infeasible
+Refreshed ReLu nodes: 7
+Split: 26 Infeasible
+Refreshed ReLu nodes: 3
+Split: 27 Infeasible
+Refreshed ReLu nodes: 11
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 8
+Split: 28 Area: 1.3546120873271188
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Refreshed ReLu nodes: 10
+Split: 30 Infeasible
+Refreshed ReLu nodes: 10
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 12.190702769899671
+Overall Unsafe Overapproximate(Area)% 15.740318310962317
+Overall Unsafe Overapproximate(Smart Area)% 13.680864514342419
+Overall Unsafe Overapproximate(Box)%: 15.625
+Overall Unsafe Overapproximate(Deeppoly)%: 96.875
+Finished Time: 1631.3283421993256
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_3.txt Delta: 0.057999999999999996
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 11
+Split: 4 Infeasible
+Refreshed ReLu nodes: 6
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 5
+Split: 24 Infeasible
+Refreshed ReLu nodes: 4
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 6
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 2
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 43.75
+Finished Time: 431.702344417572
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_3.txt Delta: 0.068
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 7
+Split: 1 Infeasible
+Refreshed ReLu nodes: 6
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 0
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 8
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Split: 10 Infeasible
+Refreshed ReLu nodes: 7
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 6
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Refreshed ReLu nodes: 5
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 4
+Split: 20 Area: 2.45845135927197
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 3
+Split: 21 Area: 1.720928793107872
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 4.179380152379843
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 5
+Split: 1 Infeasible
+Refreshed ReLu nodes: 5
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 3
+Split: 4 Area: 2.208406305281011
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 10
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Split: 10 Infeasible
+Refreshed ReLu nodes: 4
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 4
+Split: 12 Area: 0.6256912894530596
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 13
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 14
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 10
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Split: 20 Area: 3.1249999999999987
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Split: 21 Area: 2.917322320828996
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 7
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 8.876419915563066
+Overall Unsafe Overapproximate(Area)% 13.055800067942908
+Overall Unsafe Overapproximate(Smart Area)% 9.08409759473407
+Overall Unsafe Overapproximate(Box)%: 12.5
+Overall Unsafe Overapproximate(Deeppoly)%: 65.625
+Finished Time: 1246.7387685775757
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_3.txt Delta: 0.078
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 10
+Split: 12 Infeasible
+Refreshed ReLu nodes: 10
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 7
+Split: 0 Infeasible
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Refreshed ReLu nodes: 4
+Split: 2 Infeasible
+Refreshed ReLu nodes: 10
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 4 Area: 3.124999999999998
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 5 Area: 3.124999999999998
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 11
+Refreshed ReLu nodes: 4
+Split: 8 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 4
+Split: 9 Infeasible
+Refreshed ReLu nodes: 6
+Split: 10 Infeasible
+Refreshed ReLu nodes: 15
+Split: 11 Infeasible
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 12 Area: 3.124999999999996
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 13 Area: 3.124999999999988
+Refreshed ReLu nodes: 7
+Split: 14 Infeasible
+Refreshed ReLu nodes: 6
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 7
+Split: 16 Area: 1.4543398088565471
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 5
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 20 Area: 3.1249999999999982
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Split: 21 Area: 3.1249999999999982
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 9
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 8
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 28 Area: 3.1249999999999956
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 29 Area: 3.1249999999999942
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 26.45433980885651
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 11
+Split: 0 Infeasible
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Refreshed ReLu nodes: 4
+Split: 2 Infeasible
+Refreshed ReLu nodes: 10
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 4 Area: 3.124999999999998
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 5 Area: 3.124999999999998
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 11
+Refreshed ReLu nodes: 3
+Split: 8 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 4
+Split: 9 Infeasible
+Refreshed ReLu nodes: 6
+Split: 10 Infeasible
+Refreshed ReLu nodes: 15
+Split: 11 Infeasible
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 12 Area: 3.124999999999996
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 13 Area: 3.1249999999999885
+Refreshed ReLu nodes: 7
+Split: 14 Infeasible
+Refreshed ReLu nodes: 5
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Split: 16 Area: 2.84357933252617
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 6
+Split: 17 Area: 1.9458816014264313
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 20 Area: 3.1249999999999982
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 21 Area: 3.1249999999999982
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 6
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 28 Area: 3.1249999999999956
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 29 Area: 3.1249999999999942
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 29.789460933952565
+Overall Unsafe Overapproximate(Area)% 56.24380074280908
+Overall Unsafe Overapproximate(Smart Area)% 30.07088160142643
+Overall Unsafe Overapproximate(Box)%: 31.25
+Overall Unsafe Overapproximate(Deeppoly)%: 78.125
+Finished Time: 2242.292458295822
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_4.txt Delta: 0.06
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 10
+Split: 6 Infeasible
+Refreshed ReLu nodes: 16
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Split: 20 Infeasible
+Refreshed ReLu nodes: 13
+Split: 21 Infeasible
+Refreshed ReLu nodes: 5
+Split: 22 Infeasible
+Refreshed ReLu nodes: 6
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 10
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Refreshed ReLu nodes: 11
+Split: 19 Infeasible
+Refreshed ReLu nodes: 2
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 4
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 31.25
+Finished Time: 407.8703439235687
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_4.txt Delta: 0.07
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 13
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 13
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 12
+Split: 2 Infeasible
+Refreshed ReLu nodes: 7
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Refreshed ReLu nodes: 8
+Split: 6 Infeasible
+Refreshed ReLu nodes: 8
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 13
+Split: 16 Infeasible
+Refreshed ReLu nodes: 2
+Split: 17 Infeasible
+Refreshed ReLu nodes: 7
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Split: 21 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 2
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Refreshed ReLu nodes: 8
+Split: 6 Infeasible
+Refreshed ReLu nodes: 8
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 13
+Split: 16 Infeasible
+Refreshed ReLu nodes: 2
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 10
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Split: 21 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 1
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 11
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 14
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 11
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 59.375
+Finished Time: 801.4233846664429
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_4.txt Delta: 0.08
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 24
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 17
+Split: 6 Infeasible
+Refreshed ReLu nodes: 27
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 16
+Split: 16 Infeasible
+Refreshed ReLu nodes: 15
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 12
+Split: 22 Infeasible
+Refreshed ReLu nodes: 10
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 4
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Refreshed ReLu nodes: 3
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 11
+Split: 5 Area: 0.024316051985284397
+Refreshed ReLu nodes: 13
+Refreshed ReLu nodes: 14
+Split: 6 Infeasible
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 18
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Split: 12 Infeasible
+Refreshed ReLu nodes: 4
+Split: 13 Infeasible
+Split: 14 Infeasible
+Refreshed ReLu nodes: 7
+Split: 15 Infeasible
+Refreshed ReLu nodes: 16
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 18
+Split: 16 Infeasible
+Refreshed ReLu nodes: 15
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Split: 17 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 18
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 16
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 20 Area: 3.124999999999998
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Split: 21 Area: 3.1249999999999982
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 12
+Split: 22 Infeasible
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 11
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Refreshed ReLu nodes: 7
+Split: 30 Infeasible
+Refreshed ReLu nodes: 8
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 6.274316051985281
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 13
+Split: 6 Infeasible
+Refreshed ReLu nodes: 12
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 17
+Split: 16 Infeasible
+Refreshed ReLu nodes: 18
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 12
+Split: 22 Infeasible
+Refreshed ReLu nodes: 10
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 4
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 12
+Split: 2 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 12
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 7
+Split: 4 Area: 1.6844792232675325
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Split: 5 Area: 2.5217137881106586
+Refreshed ReLu nodes: 13
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 5
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 20
+Split: 13 Infeasible
+Split: 14 Infeasible
+Refreshed ReLu nodes: 7
+Split: 15 Infeasible
+Refreshed ReLu nodes: 17
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 6
+Split: 16 Infeasible
+Refreshed ReLu nodes: 18
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 11
+Split: 17 Area: 2.335591853051275
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 11
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 12
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Split: 20 Area: 3.124999999999999
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 21 Area: 3.1249999999999982
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 8
+Split: 22 Infeasible
+Refreshed ReLu nodes: 10
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Refreshed ReLu nodes: 6
+Split: 24 Infeasible
+Refreshed ReLu nodes: 6
+Split: 25 Infeasible
+Split: 26 Infeasible
+Refreshed ReLu nodes: 18
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Refreshed ReLu nodes: 7
+Split: 30 Infeasible
+Refreshed ReLu nodes: 8
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 12.791784864429461
+Overall Unsafe Overapproximate(Area)% 19.06610091641474
+Overall Unsafe Overapproximate(Smart Area)% 12.816100916414753
+Overall Unsafe Overapproximate(Box)%: 15.625
+Overall Unsafe Overapproximate(Deeppoly)%: 81.25
+Finished Time: 2272.137876033783
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_5.txt Delta: 0.05
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 7
+Split: 4 Infeasible
+Refreshed ReLu nodes: 6
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 6
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 16
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 25.0
+Finished Time: 463.68066668510437
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_5.txt Delta: 0.06
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 12
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 12
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 6
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 9
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 7
+Split: 20 Area: 1.1087722675538187
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 12
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 1.1087722675538187
+Overall Unsafe Overapproximate(Area)% 1.1087722675538187
+Overall Unsafe Overapproximate(Smart Area)% 1.1087722675538187
+Overall Unsafe Overapproximate(Box)%: 3.125
+Overall Unsafe Overapproximate(Deeppoly)%: 40.625
+Finished Time: 805.8677995204926
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_5.txt Delta: 0.07
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 7
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 16
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Split: 4 Area: 3.1249999999999876
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Split: 5 Area: 3.1249999999999836
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 8
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 7
+Split: 12 Area: 1.4465681694961876
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 8
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 20 Area: 3.1249999999999925
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 21 Area: 3.1249999999999987
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Split: 28 Area: 2.8319159392381485
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Split: 29 Area: 1.9432405625575258
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 18.721724671291824
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 9
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 4 Area: 3.12499999999999
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 5 Area: 3.1249999999999885
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Split: 12 Area: 3.0256115381508644
+Refreshed ReLu nodes: 7
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 11
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 15
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 20 Area: 3.1249999999999925
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 21 Area: 3.1249999999999987
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Split: 28 Area: 3.1249999999999836
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Split: 29 Area: 3.12499999999999
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 21.77561153815081
+Overall Unsafe Overapproximate(Area)% 40.49733620944263
+Overall Unsafe Overapproximate(Smart Area)% 21.875
+Overall Unsafe Overapproximate(Box)%: 21.875
+Overall Unsafe Overapproximate(Deeppoly)%: 53.125
+Finished Time: 1973.607206583023
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_6.txt Delta: 0.038
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 3
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 11
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 1
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 21.875
+Finished Time: 191.58277678489685
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_6.txt Delta: 0.048
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 8
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 7
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 1
+Split: 18 Infeasible
+Refreshed ReLu nodes: 3
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 4
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 8
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 6
+Split: 0 Infeasible
+Refreshed ReLu nodes: 5
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Refreshed ReLu nodes: 8
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 3
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 6
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 7
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 0
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Refreshed ReLu nodes: 6
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 7
+Split: 29 Infeasible
+Refreshed ReLu nodes: 2
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 59.375
+Finished Time: 814.3954396247864
+Net: nnet/ACASXU_experimental_v2a_4_2.nnet Property: properties/local_robustness_6.txt Delta: 0.057999999999999996
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 7
+Split: 16 Infeasible
+Refreshed ReLu nodes: 6
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 12
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Refreshed ReLu nodes: 9
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 7
+Split: 16 Infeasible
+Refreshed ReLu nodes: 6
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 12
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Refreshed ReLu nodes: 9
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 5
+Split: 0 Infeasible
+Refreshed ReLu nodes: 5
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Split: 4 Area: 2.3352360124054012
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 6
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 4
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 6
+Split: 17 Infeasible
+Refreshed ReLu nodes: 4
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 12
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 20 Area: 3.1249999999999907
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Split: 21 Area: 2.9333940419606153
+Refreshed ReLu nodes: 8
+Split: 22 Infeasible
+Refreshed ReLu nodes: 8
+Split: 23 Infeasible
+Refreshed ReLu nodes: 9
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 7
+Split: 28 Area: 0.13162127712669627
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 8.525251331492704
+Refreshed ReLu nodes: 4
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 1
+Split: 4 Area: 3.1249999999999907
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 0
+Split: 5 Area: 2.705202969234517
+Split: 6 Infeasible
+Refreshed ReLu nodes: 8
+Split: 7 Infeasible
+Refreshed ReLu nodes: 4
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 4
+Split: 12 Area: 1.8781800858676732
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 1
+Split: 16 Infeasible
+Refreshed ReLu nodes: 6
+Split: 17 Infeasible
+Refreshed ReLu nodes: 4
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 13
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 0
+Split: 20 Area: 3.1249999999999942
+Refreshed ReLu nodes: 5
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Split: 21 Area: 3.125
+Refreshed ReLu nodes: 8
+Split: 22 Infeasible
+Refreshed ReLu nodes: 8
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 6
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 2
+Split: 28 Area: 2.678234878989633
+Refreshed ReLu nodes: 2
+Refreshed ReLu nodes: 3
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Refreshed ReLu nodes: 1
+Split: 29 Area: 2.0187120993384715
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 18.65533003343028
+Overall Unsafe Overapproximate(Area)% 27.180581364922986
+Overall Unsafe Overapproximate(Smart Area)% 18.786951310556994
+Overall Unsafe Overapproximate(Box)%: 21.875
+Overall Unsafe Overapproximate(Deeppoly)%: 75.0
+Finished Time: 2043.4988107681274
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_2.txt Delta: 0.06
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 1
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 1
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 25.0
+Finished Time: 500.1578507423401
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_2.txt Delta: 0.07
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 1
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 6
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 1
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 6
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 37.5
+Finished Time: 673.7515561580658
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_2.txt Delta: 0.08
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 7
+Split: 1 Infeasible
+Split: 2 Infeasible
+Refreshed ReLu nodes: 5
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 4
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 4
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Refreshed ReLu nodes: 5
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 4
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 4
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 56.25
+Finished Time: 928.1778874397278
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_3.txt Delta: 0.052000000000000005
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Refreshed ReLu nodes: 5
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 1
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Split: 20 Infeasible
+Refreshed ReLu nodes: 1
+Split: 21 Infeasible
+Refreshed ReLu nodes: 5
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 1
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 1
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 4
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Refreshed ReLu nodes: 5
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 1
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 5
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 1
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 4
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 50.0
+Finished Time: 743.4233939647675
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_3.txt Delta: 0.062
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 2
+Split: 10 Infeasible
+Refreshed ReLu nodes: 2
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 3
+Split: 26 Infeasible
+Refreshed ReLu nodes: 3
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 5
+Split: 30 Infeasible
+Refreshed ReLu nodes: 6
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Refreshed ReLu nodes: 2
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Refreshed ReLu nodes: 1
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 8
+Split: 20 Infeasible
+Refreshed ReLu nodes: 7
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 5
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Refreshed ReLu nodes: 5
+Split: 30 Infeasible
+Refreshed ReLu nodes: 6
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 8
+Split: 20 Infeasible
+Refreshed ReLu nodes: 7
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 68.75
+Finished Time: 924.2881240844727
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_3.txt Delta: 0.07200000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 5
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Refreshed ReLu nodes: 4
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 3
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 4
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 6
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Refreshed ReLu nodes: 5
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Refreshed ReLu nodes: 4
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 1
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 4
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 6
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 6
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 75.0
+Finished Time: 1182.050122499466
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_4.txt Delta: 0.056999999999999995
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 8
+Split: 18 Infeasible
+Refreshed ReLu nodes: 6
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 6
+Split: 18 Infeasible
+Refreshed ReLu nodes: 5
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 15.625
+Finished Time: 449.30744433403015
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_4.txt Delta: 0.067
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 6
+Split: 18 Infeasible
+Refreshed ReLu nodes: 5
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 6
+Split: 26 Infeasible
+Refreshed ReLu nodes: 7
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 6
+Split: 18 Infeasible
+Refreshed ReLu nodes: 5
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 6
+Split: 26 Infeasible
+Refreshed ReLu nodes: 7
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 8
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 37.5
+Finished Time: 802.482843875885
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_4.txt Delta: 0.077
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 11
+Split: 4 Infeasible
+Refreshed ReLu nodes: 10
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 9
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 14
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 8
+Split: 28 Infeasible
+Refreshed ReLu nodes: 7
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 2
+Split: 2 Infeasible
+Refreshed ReLu nodes: 2
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 6
+Split: 12 Infeasible
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 9
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 4
+Refreshed ReLu nodes: 20
+Split: 19 Infeasible
+Refreshed ReLu nodes: 8
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 1
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 6
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Refreshed ReLu nodes: 12
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Refreshed ReLu nodes: 1
+Split: 3 Infeasible
+Refreshed ReLu nodes: 6
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 6
+Split: 12 Infeasible
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 1
+Split: 18 Infeasible
+Refreshed ReLu nodes: 9
+Refreshed ReLu nodes: 0
+Refreshed ReLu nodes: 5
+Split: 19 Infeasible
+Refreshed ReLu nodes: 8
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 1
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 6
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 53.125
+Finished Time: 1414.9657618999481
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_5.txt Delta: 0.05500000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Refreshed ReLu nodes: 5
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 8
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 6
+Split: 22 Infeasible
+Refreshed ReLu nodes: 8
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 1
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Refreshed ReLu nodes: 1
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Refreshed ReLu nodes: 4
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Refreshed ReLu nodes: 3
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 5
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 2
+Split: 20 Infeasible
+Refreshed ReLu nodes: 3
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Refreshed ReLu nodes: 1
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 1
+Split: 20 Infeasible
+Refreshed ReLu nodes: 1
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 50.0
+Finished Time: 778.2761533260345
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_5.txt Delta: 0.065
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Refreshed ReLu nodes: 2
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Refreshed ReLu nodes: 3
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 1
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Refreshed ReLu nodes: 5
+Split: 23 Infeasible
+Refreshed ReLu nodes: 1
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 2
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 1
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Refreshed ReLu nodes: 5
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 50.0
+Finished Time: 832.2040486335754
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_5.txt Delta: 0.07500000000000001
+Refreshed ReLu nodes: 4
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Refreshed ReLu nodes: 3
+Split: 2 Infeasible
+Refreshed ReLu nodes: 3
+Split: 3 Infeasible
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Refreshed ReLu nodes: 7
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Refreshed ReLu nodes: 5
+Split: 9 Infeasible
+Refreshed ReLu nodes: 5
+Split: 10 Infeasible
+Refreshed ReLu nodes: 2
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 2
+Split: 16 Infeasible
+Refreshed ReLu nodes: 2
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 8
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Refreshed ReLu nodes: 1
+Split: 24 Infeasible
+Refreshed ReLu nodes: 1
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Refreshed ReLu nodes: 7
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 10
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 3
+Split: 2 Infeasible
+Refreshed ReLu nodes: 3
+Split: 3 Infeasible
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Refreshed ReLu nodes: 7
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 5
+Split: 10 Infeasible
+Refreshed ReLu nodes: 2
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 8
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 5
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 62.5
+Finished Time: 1061.9511742591858
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_6.txt Delta: 0.033
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 2
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 2
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 1
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 2
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 2
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 5
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Refreshed ReLu nodes: 2
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 1
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 31.25
+Finished Time: 646.2862420082092
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_6.txt Delta: 0.043
+Split: 0 Infeasible
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 1
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 3
+Split: 14 Infeasible
+Refreshed ReLu nodes: 2
+Split: 15 Infeasible
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 1
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 1
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 1
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 2
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 3
+Split: 14 Infeasible
+Refreshed ReLu nodes: 2
+Split: 15 Infeasible
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 1
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 1
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 37.5
+Finished Time: 835.1515934467316
+Net: nnet/ACASXU_experimental_v2a_4_3.nnet Property: properties/local_robustness_6.txt Delta: 0.053
+Split: 0 Infeasible
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Refreshed ReLu nodes: 2
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 4
+Split: 9 Infeasible
+Refreshed ReLu nodes: 4
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 2
+Split: 15 Infeasible
+Split: 16 Infeasible
+Refreshed ReLu nodes: 5
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 3
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Refreshed ReLu nodes: 2
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Refreshed ReLu nodes: 2
+Split: 7 Infeasible
+Split: 8 Infeasible
+Refreshed ReLu nodes: 4
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 2
+Split: 15 Infeasible
+Split: 16 Infeasible
+Refreshed ReLu nodes: 5
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 3
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 37.5
+Finished Time: 860.5707378387451
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_2.txt Delta: 0.06
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 4
+Split: 20 Infeasible
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 1
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 4
+Split: 12 Infeasible
+Refreshed ReLu nodes: 3
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Refreshed ReLu nodes: 1
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 25.0
+Finished Time: 592.5279088020325
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_2.txt Delta: 0.07
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 5
+Split: 28 Infeasible
+Refreshed ReLu nodes: 4
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 5
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 25.0
+Finished Time: 929.7702069282532
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_2.txt Delta: 0.08
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Refreshed ReLu nodes: 6
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Refreshed ReLu nodes: 6
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 4
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 10
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 5
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 3
+Split: 1 Infeasible
+Refreshed ReLu nodes: 6
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Refreshed ReLu nodes: 6
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Refreshed ReLu nodes: 4
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 4
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 10
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 4
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 1
+Split: 1 Infeasible
+Refreshed ReLu nodes: 6
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 5
+Split: 4 Infeasible
+Refreshed ReLu nodes: 5
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 3
+Split: 7 Infeasible
+Refreshed ReLu nodes: 7
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Refreshed ReLu nodes: 2
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 5
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 4
+Split: 15 Infeasible
+Refreshed ReLu nodes: 2
+Split: 16 Infeasible
+Refreshed ReLu nodes: 2
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 10
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 4
+Split: 24 Infeasible
+Refreshed ReLu nodes: 4
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 6
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 68.75
+Finished Time: 2044.363442182541
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_3.txt Delta: 0.05500000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 1
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 1
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 15.625
+Finished Time: 502.70558285713196
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_3.txt Delta: 0.065
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 2
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 1
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 5
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 25.0
+Finished Time: 718.681646823883
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_3.txt Delta: 0.07500000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 4
+Split: 2 Infeasible
+Refreshed ReLu nodes: 5
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 4
+Split: 2 Infeasible
+Refreshed ReLu nodes: 4
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 6
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Refreshed ReLu nodes: 5
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 4
+Split: 2 Infeasible
+Refreshed ReLu nodes: 4
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Refreshed ReLu nodes: 3
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 2
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 2
+Split: 14 Infeasible
+Refreshed ReLu nodes: 1
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Refreshed ReLu nodes: 4
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 7
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Refreshed ReLu nodes: 4
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Refreshed ReLu nodes: 2
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 46.875
+Finished Time: 1298.7836995124817
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_4.txt Delta: 0.062
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 3
+Split: 4 Infeasible
+Refreshed ReLu nodes: 2
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 6.25
+Finished Time: 510.5756907463074
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_4.txt Delta: 0.07200000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 4
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 4
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Refreshed ReLu nodes: 6
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 4
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 2
+Split: 12 Infeasible
+Refreshed ReLu nodes: 2
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Refreshed ReLu nodes: 9
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Refreshed ReLu nodes: 2
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 6
+Split: 28 Infeasible
+Refreshed ReLu nodes: 6
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Refreshed ReLu nodes: 9
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 28.125
+Finished Time: 1080.069985628128
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_4.txt Delta: 0.082
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 16
+Split: 4 Infeasible
+Refreshed ReLu nodes: 8
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 2
+Split: 7 Infeasible
+Refreshed ReLu nodes: 2
+Split: 8 Infeasible
+Refreshed ReLu nodes: 3
+Split: 9 Infeasible
+Refreshed ReLu nodes: 4
+Split: 10 Infeasible
+Refreshed ReLu nodes: 9
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 3
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 16
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 16
+Split: 4 Infeasible
+Refreshed ReLu nodes: 8
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 2
+Split: 7 Infeasible
+Refreshed ReLu nodes: 2
+Split: 8 Infeasible
+Refreshed ReLu nodes: 3
+Split: 9 Infeasible
+Refreshed ReLu nodes: 3
+Split: 10 Infeasible
+Refreshed ReLu nodes: 8
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 3
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 14
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 16
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 3
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 16
+Split: 4 Infeasible
+Refreshed ReLu nodes: 8
+Split: 5 Infeasible
+Refreshed ReLu nodes: 3
+Split: 6 Infeasible
+Refreshed ReLu nodes: 2
+Split: 7 Infeasible
+Refreshed ReLu nodes: 2
+Split: 8 Infeasible
+Refreshed ReLu nodes: 1
+Split: 9 Infeasible
+Refreshed ReLu nodes: 1
+Split: 10 Infeasible
+Refreshed ReLu nodes: 1
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 5
+Split: 13 Infeasible
+Refreshed ReLu nodes: 3
+Split: 14 Infeasible
+Refreshed ReLu nodes: 3
+Split: 15 Infeasible
+Refreshed ReLu nodes: 4
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 9
+Split: 18 Infeasible
+Refreshed ReLu nodes: 10
+Split: 19 Infeasible
+Refreshed ReLu nodes: 16
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 10
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 9
+Split: 18 Infeasible
+Refreshed ReLu nodes: 10
+Split: 19 Infeasible
+Refreshed ReLu nodes: 16
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 68.75
+Finished Time: 2267.1143481731415
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_5.txt Delta: 0.061
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 3
+Split: 2 Infeasible
+Refreshed ReLu nodes: 4
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 2
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 10
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 1
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 3
+Split: 2 Infeasible
+Refreshed ReLu nodes: 4
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 2
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 1
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 3
+Split: 2 Infeasible
+Refreshed ReLu nodes: 4
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 2
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 4
+Split: 14 Infeasible
+Refreshed ReLu nodes: 5
+Split: 15 Infeasible
+Refreshed ReLu nodes: 5
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 1
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 2
+Split: 23 Infeasible
+Refreshed ReLu nodes: 2
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 1
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 6
+Split: 30 Infeasible
+Refreshed ReLu nodes: 3
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 50.0
+Finished Time: 1649.8480470180511
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_5.txt Delta: 0.07100000000000001
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 8
+Split: 2 Infeasible
+Refreshed ReLu nodes: 6
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 20
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 9
+Split: 14 Infeasible
+Refreshed ReLu nodes: 9
+Split: 15 Infeasible
+Refreshed ReLu nodes: 6
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 10
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 3
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 4
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 8
+Split: 2 Infeasible
+Refreshed ReLu nodes: 6
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 20
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 9
+Split: 14 Infeasible
+Refreshed ReLu nodes: 9
+Split: 15 Infeasible
+Refreshed ReLu nodes: 6
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 10
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 3
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 4
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Refreshed ReLu nodes: 8
+Split: 2 Infeasible
+Refreshed ReLu nodes: 6
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Refreshed ReLu nodes: 4
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 20
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Refreshed ReLu nodes: 4
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 9
+Split: 14 Infeasible
+Refreshed ReLu nodes: 9
+Split: 15 Infeasible
+Refreshed ReLu nodes: 6
+Split: 16 Infeasible
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 2
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Split: 21 Infeasible
+Refreshed ReLu nodes: 2
+Split: 22 Infeasible
+Refreshed ReLu nodes: 3
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 2
+Split: 26 Infeasible
+Refreshed ReLu nodes: 5
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 3
+Split: 30 Infeasible
+Refreshed ReLu nodes: 4
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 20
+Split: 8 Infeasible
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 9
+Split: 14 Infeasible
+Refreshed ReLu nodes: 9
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 9
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 59.375
+Finished Time: 2237.9048595428467
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_5.txt Delta: 0.081
+Split: 0 Infeasible
+Refreshed ReLu nodes: 8
+Split: 1 Infeasible
+Refreshed ReLu nodes: 13
+Split: 2 Infeasible
+Refreshed ReLu nodes: 13
+Split: 3 Infeasible
+Split: 4 Infeasible
+Refreshed ReLu nodes: 19
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 32
+Split: 8 Infeasible
+Refreshed ReLu nodes: 27
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Refreshed ReLu nodes: 8
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 17
+Split: 14 Infeasible
+Refreshed ReLu nodes: 13
+Split: 15 Infeasible
+Refreshed ReLu nodes: 10
+Split: 16 Infeasible
+Refreshed ReLu nodes: 11
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 15
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 1
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 5
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Refreshed ReLu nodes: 8
+Split: 1 Infeasible
+Refreshed ReLu nodes: 13
+Split: 2 Infeasible
+Refreshed ReLu nodes: 13
+Split: 3 Infeasible
+Split: 4 Infeasible
+Refreshed ReLu nodes: 19
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 32
+Split: 8 Infeasible
+Refreshed ReLu nodes: 27
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Refreshed ReLu nodes: 8
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 17
+Split: 14 Infeasible
+Refreshed ReLu nodes: 13
+Split: 15 Infeasible
+Refreshed ReLu nodes: 10
+Split: 16 Infeasible
+Refreshed ReLu nodes: 11
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 15
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 1
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 5
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 8
+Refreshed ReLu nodes: 32
+Split: 0 Infeasible
+Refreshed ReLu nodes: 8
+Split: 1 Infeasible
+Refreshed ReLu nodes: 13
+Split: 2 Infeasible
+Refreshed ReLu nodes: 13
+Split: 3 Infeasible
+Refreshed ReLu nodes: 7
+Split: 4 Infeasible
+Refreshed ReLu nodes: 19
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 32
+Refreshed ReLu nodes: 18
+Split: 8 Infeasible
+Refreshed ReLu nodes: 27
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Refreshed ReLu nodes: 8
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 17
+Split: 14 Infeasible
+Refreshed ReLu nodes: 13
+Split: 15 Infeasible
+Refreshed ReLu nodes: 10
+Split: 16 Infeasible
+Refreshed ReLu nodes: 11
+Split: 17 Infeasible
+Refreshed ReLu nodes: 2
+Split: 18 Infeasible
+Refreshed ReLu nodes: 4
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 15
+Split: 21 Infeasible
+Refreshed ReLu nodes: 4
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Refreshed ReLu nodes: 1
+Split: 26 Infeasible
+Refreshed ReLu nodes: 2
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Refreshed ReLu nodes: 4
+Split: 30 Infeasible
+Refreshed ReLu nodes: 5
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 8
+Split: 0 Infeasible
+Refreshed ReLu nodes: 8
+Split: 1 Infeasible
+Refreshed ReLu nodes: 13
+Split: 2 Infeasible
+Refreshed ReLu nodes: 13
+Split: 3 Infeasible
+Split: 4 Infeasible
+Refreshed ReLu nodes: 19
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 32
+Split: 8 Infeasible
+Refreshed ReLu nodes: 27
+Split: 9 Infeasible
+Refreshed ReLu nodes: 7
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Refreshed ReLu nodes: 17
+Split: 14 Infeasible
+Refreshed ReLu nodes: 13
+Split: 15 Infeasible
+Refreshed ReLu nodes: 10
+Split: 16 Infeasible
+Refreshed ReLu nodes: 11
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 11
+Split: 20 Infeasible
+Refreshed ReLu nodes: 15
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 75.0
+Finished Time: 3231.624636411667
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_6.txt Delta: 0.054000000000000006
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 3
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 2
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 1
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 2
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 18.75
+Finished Time: 662.4827117919922
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_6.txt Delta: 0.064
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 12
+Split: 8 Infeasible
+Refreshed ReLu nodes: 6
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 7
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 7
+Split: 20 Infeasible
+Refreshed ReLu nodes: 5
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 12
+Split: 8 Infeasible
+Refreshed ReLu nodes: 6
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 7
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 6
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 2
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 4
+Split: 4 Infeasible
+Refreshed ReLu nodes: 3
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 4
+Split: 8 Infeasible
+Refreshed ReLu nodes: 5
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 3
+Split: 12 Infeasible
+Refreshed ReLu nodes: 4
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Refreshed ReLu nodes: 3
+Split: 20 Infeasible
+Refreshed ReLu nodes: 4
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 4
+Split: 28 Infeasible
+Refreshed ReLu nodes: 3
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 37.5
+Finished Time: 1317.279443025589
+Net: nnet/ACASXU_experimental_v2a_4_4.nnet Property: properties/local_robustness_6.txt Delta: 0.07400000000000001
+Refreshed ReLu nodes: 5
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 9
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 11
+Split: 13 Infeasible
+Refreshed ReLu nodes: 13
+Split: 14 Infeasible
+Refreshed ReLu nodes: 7
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 5
+Split: 24 Infeasible
+Refreshed ReLu nodes: 6
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 9
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 5
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Refreshed ReLu nodes: 9
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 11
+Split: 13 Infeasible
+Refreshed ReLu nodes: 13
+Split: 14 Infeasible
+Refreshed ReLu nodes: 6
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Refreshed ReLu nodes: 5
+Split: 24 Infeasible
+Refreshed ReLu nodes: 6
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 8
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Refreshed ReLu nodes: 5
+Split: 0 Infeasible
+Refreshed ReLu nodes: 4
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Refreshed ReLu nodes: 8
+Split: 4 Infeasible
+Refreshed ReLu nodes: 7
+Split: 5 Infeasible
+Refreshed ReLu nodes: 5
+Split: 6 Infeasible
+Refreshed ReLu nodes: 5
+Split: 7 Infeasible
+Refreshed ReLu nodes: 9
+Split: 8 Infeasible
+Refreshed ReLu nodes: 7
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 8
+Split: 12 Infeasible
+Refreshed ReLu nodes: 11
+Split: 13 Infeasible
+Refreshed ReLu nodes: 6
+Split: 14 Infeasible
+Refreshed ReLu nodes: 5
+Split: 15 Infeasible
+Refreshed ReLu nodes: 3
+Split: 16 Infeasible
+Refreshed ReLu nodes: 3
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Refreshed ReLu nodes: 7
+Split: 23 Infeasible
+Refreshed ReLu nodes: 3
+Split: 24 Infeasible
+Refreshed ReLu nodes: 3
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Refreshed ReLu nodes: 7
+Split: 28 Infeasible
+Refreshed ReLu nodes: 5
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Split: 0 Infeasible
+Split: 1 Infeasible
+Split: 2 Infeasible
+Split: 3 Infeasible
+Split: 4 Infeasible
+Split: 5 Infeasible
+Split: 6 Infeasible
+Split: 7 Infeasible
+Split: 8 Infeasible
+Split: 9 Infeasible
+Split: 10 Infeasible
+Split: 11 Infeasible
+Refreshed ReLu nodes: 13
+Split: 12 Infeasible
+Split: 13 Infeasible
+Split: 14 Infeasible
+Split: 15 Infeasible
+Split: 16 Infeasible
+Split: 17 Infeasible
+Split: 18 Infeasible
+Split: 19 Infeasible
+Split: 20 Infeasible
+Split: 21 Infeasible
+Split: 22 Infeasible
+Split: 23 Infeasible
+Split: 24 Infeasible
+Split: 25 Infeasible
+Split: 26 Infeasible
+Split: 27 Infeasible
+Split: 28 Infeasible
+Split: 29 Infeasible
+Split: 30 Infeasible
+Split: 31 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 59.375
+Finished Time: 1870.8636837005615
+[[[[0.0, 15.625], [0.0, 62.5], [13.680864514342419, 96.875]], [[0.0, 43.75], [9.08409759473407, 65.625], [30.07088160142643, 78.125]], [[0.0, 31.25], [0.0, 59.375], [12.816100916414753, 81.25]], [[0.0, 25.0], [1.1087722675538187, 40.625], [21.875, 53.125]], [[0.0, 21.875], [0.0, 59.375], [18.786951310556994, 75.0]]], [[[0.0, 25.0], [0.0, 37.5], [0.0, 56.25]], [[0.0, 50.0], [0.0, 68.75], [0.0, 75.0]], [[0.0, 15.625], [0.0, 37.5], [0.0, 53.125]], [[0.0, 50.0], [0.0, 50.0], [0.0, 62.5]], [[0.0, 31.25], [0.0, 37.5], [0.0, 37.5]]], [[[0.0, 25.0], [0.0, 25.0], [0.0, 68.75]], [[0.0, 15.625], [0.0, 25.0], [0.0, 46.875]], [[0.0, 6.25], [0.0, 28.125], [0.0, 68.75]], [[0.0, 50.0], [0.0, 59.375], [0.0, 75.0]], [[0.0, 18.75], [0.0, 37.5], [0.0, 59.375]]]]

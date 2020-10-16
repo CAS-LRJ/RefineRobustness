@@ -1,0 +1,12 @@
+# Layer 0 2 Input data
+Input inX0
+Input inX1
+# Layer 1 2 ReLU relu1
+ReLU relu1X0 0 1 inX0 -1 inX1
+ReLU relu1X1 2.5 1 inX0 1 inX1
+# Layer 2 2 Linear res
+Linear resX0 0.0 1 relu1X0
+Linear resX1 0.0 1 relu1X1
+# Layer 3 2 Linear Accuracy
+Linear outX0 0.0 1.0 resX0
+Linear outX1 0.0 1.0 resX1

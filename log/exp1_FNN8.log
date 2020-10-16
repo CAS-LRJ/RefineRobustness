@@ -1,0 +1,568 @@
+Net: rlv/caffeprototxt_AI2_MNIST_FNN_8_testNetworkB.rlv Property: properties/mnist_0_local_property.in
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 18
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 2
+Abstract Mode Changed: 19
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.9999999999847
+Disturbance: 0.068 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 85
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 22
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 1
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999998373
+Disturbance: 0.052 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 202
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 218
+Abstract Mode Changed: 31
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 213
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 257
+Abstract Mode Changed: 31
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 215
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 555
+Abstract Mode Changed: 36
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 262
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 193
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 112
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 141
+Abstract Mode Changed: 22
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 208
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 293
+Abstract Mode Changed: 34
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 213
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 288
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 288
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 206
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 200
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 191
+Abstract Mode Changed: 29
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 0.044 Success!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 104
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 58
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 12
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Split: 0 Area: 99.99999999998266
+Disturbance: 0.048 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 185
+Abstract Mode Changed: 20
+Refreshed ReLu nodes: 98
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 35
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 35
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 61
+Split: 0 Area: 99.99999999998101
+Disturbance: 0.046 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 198
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 189
+Abstract Mode Changed: 27
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 198
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 101
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 198
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 120
+Abstract Mode Changed: 17
+Refreshed ReLu nodes: 272
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 198
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 111
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 172
+Abstract Mode Changed: 26
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 198
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 117
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 83
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 53
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 88
+Split: 0 Area: 99.99999999998323
+Disturbance: 0.045 Failed!
+DeepPoly Max Verified Distrubance: 0.037
+Our method Max Verified Disturbance: 0.044
+Net: rlv/caffeprototxt_AI2_MNIST_FNN_8_testNetworkB.rlv Property: properties/mnist_1_local_property.in
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999999206
+Disturbance: 0.051 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999999024
+Disturbance: 0.035 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 85
+Abstract Mode Changed: 19
+Refreshed ReLu nodes: 12
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999999098
+Disturbance: 0.027 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 195
+Abstract Mode Changed: 24
+Refreshed ReLu nodes: 327
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 185
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 133
+Abstract Mode Changed: 22
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 183
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 105
+Abstract Mode Changed: 23
+Refreshed ReLu nodes: 152
+Abstract Mode Changed: 30
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 185
+Abstract Mode Changed: 19
+Refreshed ReLu nodes: 146
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 181
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 116
+Abstract Mode Changed: 26
+Refreshed ReLu nodes: 325
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 195
+Abstract Mode Changed: 25
+Refreshed ReLu nodes: 231
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 180
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 86
+Abstract Mode Changed: 21
+Refreshed ReLu nodes: 91
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 165
+Split: 0 Area: 99.99999999998612
+Disturbance: 0.023 Failed!
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 722
+Abstract Mode Changed: 9
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 0.021 Success!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 278
+Abstract Mode Changed: 28
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 253
+Abstract Mode Changed: 20
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 247
+Abstract Mode Changed: 18
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 243
+Abstract Mode Changed: 16
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 261
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 270
+Abstract Mode Changed: 28
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 236
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 578
+Abstract Mode Changed: 17
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 236
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 220
+Abstract Mode Changed: 32
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 238
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 580
+Abstract Mode Changed: 20
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 0.022 Success!
+DeepPoly Max Verified Distrubance: 0.02
+Our method Max Verified Disturbance: 0.022
+Net: rlv/caffeprototxt_AI2_MNIST_FNN_8_testNetworkB.rlv Property: properties/mnist_2_local_property.in
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 50
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999998425
+Disturbance: 0.064 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 91
+Abstract Mode Changed: 30
+Refreshed ReLu nodes: 50
+Abstract Mode Changed: 26
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999998182
+Disturbance: 0.048 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 19
+Refreshed ReLu nodes: 528
+Abstract Mode Changed: 43
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 210
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 191
+Abstract Mode Changed: 27
+Refreshed ReLu nodes: 924
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 234
+Abstract Mode Changed: 40
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 119
+Abstract Mode Changed: 37
+Refreshed ReLu nodes: 173
+Abstract Mode Changed: 28
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 20
+Refreshed ReLu nodes: 280
+Abstract Mode Changed: 43
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 187
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 304
+Abstract Mode Changed: 40
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 21
+Refreshed ReLu nodes: 235
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 186
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 138
+Abstract Mode Changed: 41
+Refreshed ReLu nodes: 222
+Abstract Mode Changed: 39
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 0.04 Success!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 162
+Abstract Mode Changed: 27
+Refreshed ReLu nodes: 103
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 40
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 3
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999997988
+Disturbance: 0.044 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 168
+Abstract Mode Changed: 22
+Refreshed ReLu nodes: 109
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 64
+Abstract Mode Changed: 17
+Refreshed ReLu nodes: 45
+Abstract Mode Changed: 29
+Refreshed ReLu nodes: 75
+Split: 0 Area: 99.9999999999804
+Disturbance: 0.042 Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 149
+Abstract Mode Changed: 23
+Refreshed ReLu nodes: 140
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 122
+Abstract Mode Changed: 34
+Refreshed ReLu nodes: 587
+Abstract Mode Changed: 31
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 149
+Abstract Mode Changed: 22
+Refreshed ReLu nodes: 140
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 113
+Abstract Mode Changed: 33
+Refreshed ReLu nodes: 157
+Abstract Mode Changed: 32
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 149
+Abstract Mode Changed: 21
+Refreshed ReLu nodes: 141
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 139
+Abstract Mode Changed: 37
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 149
+Abstract Mode Changed: 22
+Refreshed ReLu nodes: 140
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 114
+Abstract Mode Changed: 24
+Refreshed ReLu nodes: 174
+Abstract Mode Changed: 32
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 149
+Abstract Mode Changed: 23
+Refreshed ReLu nodes: 139
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 102
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 43
+Abstract Mode Changed: 26
+Refreshed ReLu nodes: 81
+Split: 0 Area: 99.99999999997694
+Disturbance: 0.041 Failed!
+DeepPoly Max Verified Distrubance: 0.033
+Our method Max Verified Disturbance: 0.04
+[[[0.037, 0.044], [0.02, 0.022], [0.033, 0.04]]]

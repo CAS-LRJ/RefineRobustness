@@ -183,6 +183,10 @@ The quantitative robustness experiment can give an over-approximation of the uns
     print(rlist)
 ```
 
+## Log File
+
+We store our experiment log in _log_ folder. Exp1, exp2, exp3 means precision experiment, performance experiment, quantitive experiment respectively.
+
 ## License and Copyright
 
 Licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0)

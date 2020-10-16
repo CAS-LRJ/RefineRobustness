@@ -1,0 +1,745 @@
+Verifying Network: rlv/caffeprototxt_AI2_MNIST_FNN_7_testNetworkB.rlv
+properties/mnist_0_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_0_local_property.in DeepSRGR Success!
+properties/mnist_0_local_property.in Running Time 43.713494062423706
+properties/mnist_1_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.9999999999877
+properties/mnist_1_local_property.in DeepSRGR Failed!
+properties/mnist_1_local_property.in Running Time 13807.183388233185
+properties/mnist_2_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_2_local_property.in DeepSRGR Success!
+properties/mnist_2_local_property.in Running Time 41.88793087005615
+properties/mnist_3_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_3_local_property.in DeepSRGR Success!
+properties/mnist_3_local_property.in Running Time 42.14996647834778
+properties/mnist_4_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_4_local_property.in DeepSRGR Success!
+properties/mnist_4_local_property.in Running Time 37.682759284973145
+properties/mnist_5_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 311
+Abstract Mode Changed: 49
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 227
+Abstract Mode Changed: 44
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 94
+Abstract Mode Changed: 28
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 43
+Abstract Mode Changed: 20
+Refreshed ReLu nodes: 236
+Abstract Mode Changed: 54
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_5_local_property.in DeepSRGR Success!
+properties/mnist_5_local_property.in Running Time 13584.292298555374
+properties/mnist_6_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_6_local_property.in DeepSRGR Success!
+properties/mnist_6_local_property.in Running Time 55.59854435920715
+properties/mnist_7_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 25
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 11
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 12
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Split: 0 Area: 99.99999999998475
+properties/mnist_7_local_property.in DeepSRGR Failed!
+properties/mnist_7_local_property.in Running Time 14309.022491693497
+properties/mnist_8_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 10
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 6
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 2
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Split: 0 Area: 99.99999999997453
+properties/mnist_8_local_property.in DeepSRGR Failed!
+properties/mnist_8_local_property.in Running Time 13911.0970621109
+properties/mnist_9_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 18
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 11
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 10
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 7
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Split: 0 Area: 99.99999999996787
+properties/mnist_9_local_property.in DeepSRGR Failed!
+properties/mnist_9_local_property.in Running Time 13062.3419444561
+properties/mnist_10_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_10_local_property.in DeepSRGR Success!
+properties/mnist_10_local_property.in Running Time 40.872220277786255
+properties/mnist_11_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_11_local_property.in DeepSRGR Success!
+properties/mnist_11_local_property.in Running Time 40.44858407974243
+properties/mnist_12_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 295
+Abstract Mode Changed: 33
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_12_local_property.in DeepSRGR Success!
+properties/mnist_12_local_property.in Running Time 2381.561121702194
+properties/mnist_13_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 129
+Abstract Mode Changed: 36
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_13_local_property.in DeepSRGR Success!
+properties/mnist_13_local_property.in Running Time 2361.6342644691467
+properties/mnist_14_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_14_local_property.in DeepSRGR Success!
+properties/mnist_14_local_property.in Running Time 42.05584764480591
+properties/mnist_15_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 17
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 17
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 12
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Split: 0 Area: 99.99999999996109
+properties/mnist_15_local_property.in DeepSRGR Failed!
+properties/mnist_15_local_property.in Running Time 13195.312701940536
+properties/mnist_16_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 57
+Abstract Mode Changed: 36
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 140
+Abstract Mode Changed: 37
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 19
+Refreshed ReLu nodes: 113
+Abstract Mode Changed: 31
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 191
+Abstract Mode Changed: 55
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 46
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 613
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 30
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 56
+Abstract Mode Changed: 17
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 44
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 96
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 42
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 134
+Abstract Mode Changed: 52
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 65
+Abstract Mode Changed: 29
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_16_local_property.in DeepSRGR Success!
+properties/mnist_16_local_property.in Running Time 59203.4653532505
+properties/mnist_17_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 476
+Abstract Mode Changed: 24
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 156
+Abstract Mode Changed: 20
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 69
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 139
+Abstract Mode Changed: 20
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_17_local_property.in DeepSRGR Success!
+properties/mnist_17_local_property.in Running Time 9475.832143306732
+properties/mnist_18_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_18_local_property.in DeepSRGR Success!
+properties/mnist_18_local_property.in Running Time 41.52950692176819
+properties/mnist_19_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 314
+Abstract Mode Changed: 42
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 247
+Abstract Mode Changed: 35
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 174
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 94
+Abstract Mode Changed: 23
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 36
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 118
+Abstract Mode Changed: 19
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 35
+Abstract Mode Changed: 17
+Refreshed ReLu nodes: 116
+Abstract Mode Changed: 23
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 37
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 58
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 81
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 288
+Split: 0 Area: 99.99999999995826
+properties/mnist_19_local_property.in DeepSRGR Failed!
+properties/mnist_19_local_property.in Running Time 34569.2230861187
+properties/mnist_20_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_20_local_property.in DeepSRGR Success!
+properties/mnist_20_local_property.in Running Time 42.50706958770752
+properties/mnist_21_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 1
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 0
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999999167
+properties/mnist_21_local_property.in DeepSRGR Failed!
+properties/mnist_21_local_property.in Running Time 14393.935950756073
+properties/mnist_22_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_22_local_property.in DeepSRGR Success!
+properties/mnist_22_local_property.in Running Time 43.088258504867554
+properties/mnist_23_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 28
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 18
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 20
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Split: 0 Area: 99.99999999996867
+properties/mnist_23_local_property.in DeepSRGR Failed!
+properties/mnist_23_local_property.in Running Time 13321.945215940475
+properties/mnist_24_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 10
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 9
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Split: 0 Area: 99.99999999997961
+properties/mnist_24_local_property.in DeepSRGR Failed!
+properties/mnist_24_local_property.in Running Time 13667.58946633339
+properties/mnist_25_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 26
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 16
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 16
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 15
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 19
+Split: 0 Area: 99.9999999999814
+properties/mnist_25_local_property.in DeepSRGR Failed!
+properties/mnist_25_local_property.in Running Time 13429.703659534454
+properties/mnist_26_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 54
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 63
+Abstract Mode Changed: 32
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 62
+Abstract Mode Changed: 29
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 71
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 41
+Abstract Mode Changed: 13
+Refreshed ReLu nodes: 56
+Abstract Mode Changed: 30
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 21
+Abstract Mode Changed: 17
+Refreshed ReLu nodes: 147
+Abstract Mode Changed: 37
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 20
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 102
+Abstract Mode Changed: 29
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 30
+Abstract Mode Changed: 17
+Refreshed ReLu nodes: 209
+Abstract Mode Changed: 44
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 38
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 22
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 77
+Abstract Mode Changed: 27
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_26_local_property.in DeepSRGR Success!
+properties/mnist_26_local_property.in Running Time 52406.73248672485
+properties/mnist_27_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_27_local_property.in DeepSRGR Success!
+properties/mnist_27_local_property.in Running Time 39.843780279159546
+properties/mnist_28_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 32
+Abstract Mode Changed: 20
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 36
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 817
+Abstract Mode Changed: 19
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 40
+Abstract Mode Changed: 19
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 36
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 281
+Abstract Mode Changed: 39
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 30
+Abstract Mode Changed: 10
+Refreshed ReLu nodes: 25
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 107
+Abstract Mode Changed: 27
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 14
+Refreshed ReLu nodes: 38
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 224
+Abstract Mode Changed: 29
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 30
+Abstract Mode Changed: 12
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 11
+Refreshed ReLu nodes: 25
+Abstract Mode Changed: 16
+Refreshed ReLu nodes: 78
+Abstract Mode Changed: 18
+Refreshed ReLu nodes: 582
+Split: 0 Area: 99.99999999996463
+properties/mnist_28_local_property.in DeepSRGR Failed!
+properties/mnist_28_local_property.in Running Time 61760.67784500122
+properties/mnist_29_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_29_local_property.in DeepSRGR Success!
+properties/mnist_29_local_property.in Running Time 39.36094808578491
+properties/mnist_30_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_30_local_property.in DeepSRGR Success!
+properties/mnist_30_local_property.in Running Time 40.025399923324585
+properties/mnist_31_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_31_local_property.in DeepSRGR Success!
+properties/mnist_31_local_property.in Running Time 40.20825958251953
+properties/mnist_32_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_32_local_property.in DeepSRGR Success!
+properties/mnist_32_local_property.in Running Time 47.484968423843384
+properties/mnist_33_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_33_local_property.in DeepSRGR Success!
+properties/mnist_33_local_property.in Running Time 42.800240993499756
+properties/mnist_34_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 412
+Abstract Mode Changed: 44
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 432
+Abstract Mode Changed: 48
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 217
+Abstract Mode Changed: 52
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 154
+Abstract Mode Changed: 46
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 64
+Abstract Mode Changed: 30
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 54
+Abstract Mode Changed: 38
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 39
+Abstract Mode Changed: 32
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 29
+Abstract Mode Changed: 24
+Refreshed ReLu nodes: 96
+Abstract Mode Changed: 40
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_34_local_property.in DeepSRGR Success!
+properties/mnist_34_local_property.in Running Time 24100.465450763702
+properties/mnist_35_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 486
+Abstract Mode Changed: 28
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 152
+Abstract Mode Changed: 30
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 92
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 87
+Abstract Mode Changed: 25
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 79
+Abstract Mode Changed: 25
+Refreshed ReLu nodes: 361
+Abstract Mode Changed: 39
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_35_local_property.in DeepSRGR Success!
+properties/mnist_35_local_property.in Running Time 14141.193264245987
+properties/mnist_36_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 52
+Abstract Mode Changed: 25
+Refreshed ReLu nodes: 129
+Abstract Mode Changed: 27
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 32
+Abstract Mode Changed: 15
+Refreshed ReLu nodes: 17
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 20
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 26
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 16
+Split: 0 Area: 99.99999999996722
+properties/mnist_36_local_property.in DeepSRGR Failed!
+properties/mnist_36_local_property.in Running Time 13247.4729449749
+properties/mnist_37_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_37_local_property.in DeepSRGR Success!
+properties/mnist_37_local_property.in Running Time 38.774184703826904
+properties/mnist_38_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_38_local_property.in DeepSRGR Success!
+properties/mnist_38_local_property.in Running Time 99.88977932929993
+properties/mnist_39_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 441
+Abstract Mode Changed: 37
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 72
+Abstract Mode Changed: 24
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_39_local_property.in DeepSRGR Success!
+properties/mnist_39_local_property.in Running Time 5312.350252628326
+properties/mnist_40_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_40_local_property.in DeepSRGR Success!
+properties/mnist_40_local_property.in Running Time 42.44522047042847
+properties/mnist_41_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_41_local_property.in DeepSRGR Success!
+properties/mnist_41_local_property.in Running Time 47.749067544937134
+properties/mnist_42_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_42_local_property.in DeepSRGR Success!
+properties/mnist_42_local_property.in Running Time 43.01469922065735
+properties/mnist_43_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_43_local_property.in DeepSRGR Success!
+properties/mnist_43_local_property.in Running Time 45.75659108161926
+properties/mnist_44_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_44_local_property.in DeepSRGR Success!
+properties/mnist_44_local_property.in Running Time 44.91607618331909
+properties/mnist_45_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 321
+Abstract Mode Changed: 44
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+properties/mnist_45_local_property.in DeepSRGR Success!
+properties/mnist_45_local_property.in Running Time 2212.6988706588745
+properties/mnist_46_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_46_local_property.in DeepSRGR Success!
+properties/mnist_46_local_property.in Running Time 40.41916060447693
+properties/mnist_47_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 5
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 2
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 0
+Split: 0 Area: 99.99999999998366
+properties/mnist_47_local_property.in DeepSRGR Failed!
+properties/mnist_47_local_property.in Running Time 14559.944941997528
+properties/mnist_48_local_property.in DeepPoly Success!
+Property Verified
+properties/mnist_48_local_property.in DeepSRGR Success!
+properties/mnist_48_local_property.in Running Time 43.50126004219055
+properties/mnist_49_local_property.in DeepPoly Failed!
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 16
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 14
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 8
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 2
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Split: 0 Area: 99.99999999997593
+properties/mnist_49_local_property.in DeepSRGR Failed!
+properties/mnist_49_local_property.in Running Time 14455.312730789185
+DeepPoly Verified: 25 DeepSRGR Verified: 36
+Min Time: 37.682759284973145 Max Time 61760.67784500122 Avg Time 8960.774255094528
+Passlist: [0, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 20, 22, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48]
+Nopasslist: [1, 7, 8, 9, 15, 19, 21, 23, 24, 25, 28, 36, 47, 49]
