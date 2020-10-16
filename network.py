@@ -849,9 +849,9 @@ def main():
     #         print("Uncertain Relu:",count)                    
 
     # #Below shows the small example in paper
-    net=network()
-    net.load_rlv('rlv/smallexample.rlv')
-    net.verify_lp_split(PROPERTY='properties/smallexample.in',DELTA=1,MAX_ITER=2,SPLIT_NUM=0,WORKERS=12,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True)    
+    # net=network()
+    # net.load_rlv('rlv/smallexample.rlv')
+    # net.verify_lp_split(PROPERTY='properties/smallexample.in',DELTA=1,MAX_ITER=2,SPLIT_NUM=0,WORKERS=12,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True)    
     # net.print()
     # net.load_robustness('properties/smallexample.in',1)
     # net.deeppoly()
