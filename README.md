@@ -66,6 +66,7 @@ There is some existing property files in _properties_ folder. _local\_robustness
 - ```TRIM``` Whether to trim the input interval, e.g. _[-0.2, 0.7]_ to _[0, 0.7]_, default value is _FALSE_.
 - ```SOLVER``` The linear programming solver, default value is _cp.GUROBI_, please use _cp.CBC_ if _GUROBI_ is not installed.
 - ```MODE``` Verification Mode, 0 means _QUANTITIVE_, 1 means _ROBUSTNESS_.In _QUANTITVE_ mode, program will give a overapproximation of unsafe region. While in _ROBUSTNESS_ mode, program only cares about robust or not.The default value is 0.
+- ```USE_OPT_2``` Whether to use optimization 2, default value is False.
 
 Extra parameters in _find\_max\_disturbance_ and _find\_max\_disturbance\_lp_:
 - ```L``` The lower bound to find max robust disturbance
@@ -99,11 +100,91 @@ The following example code calculates the max robustness radius of mnist_fnn_1 f
 
 ### Robustness verification performance
 
-#### TO-DO
+The following example code verifies a batch of properties of mnist_fnn_4 in a given radius.
+```main()
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
+    delta=0.037
+    for net_i in net_list:
+        pass_list=[]
+        nopass_list=[]
+        net=network()
+        net.load_rlv(net_i)
+        index=0
+        count_deeppoly=0
+        count_deepsrgr=0
+        mintime=None
+        maxtime=None
+        avgtime=0
+        print('Verifying Network:',net_i)
+        for property_i in property_list:
+            net.clear()
+            net.load_robustness(property_i,delta,TRIM=True)
+            net.deeppoly()
+            flag=True
+            for neuron_i in net.layers[-1].neurons:
+                # print(neuron_i.concrete_upper)
+                if neuron_i.concrete_upper>0:
+                    flag=False
+            if flag==True:
+                count_deeppoly+=1
+                print(property_i,'DeepPoly Success!')
+            else:
+                print(property_i,'DeepPoly Failed!')
+
+            start=time.time()
+            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True):
+                print(property_i,'DeepSRGR Success!')
+                count_deepsrgr+=1
+                pass_list.append(index)
+            else:
+                print(property_i,'DeepSRGR Failed!')
+                nopass_list.append(index)
+            end=time.time()
+            runningtime=end-start
+            print(property_i,'Running Time',runningtime)
+            if (mintime==None) or (runningtime<mintime):
+                mintime=runningtime
+            if (maxtime==None) or (runningtime>maxtime):
+                maxtime=runningtime
+            avgtime+=runningtime
+            index+=1
+        print('DeepPoly Verified:',count_deeppoly,'DeepSRGR Verified:',count_deepsrgr)
+        print('Min Time:',mintime,'Max Time',maxtime,'Avg Time',avgtime/50)
+        print('Passlist:',pass_list)
+        print('Nopasslist:',nopass_list)   
+```
+**_Hint_ Batch Verify Experiments in paper use optimization 2**
 
 ### Quantitative robustness verification on ACAS Xu networks
 
-#### TO-DO
+The quantitative robustness experiment can give an over-approximation of the unsafe region. We firstly calculate the max robustness radius of a property using DeepPoly. After adding a disturbance, we use our method and DeepPoly to give the over-approximation of the unsafe region.
+```
+    net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet']
+    property_list=['properties/local_robustness_2.txt']
+    disturbance_list=[0.02,0.03,0.04]    
+    rlist=[]
+    for net_i in net_list:
+        plist=[]
+        for property_i in property_list:
+            net=network()
+            net.load_nnet(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i)
+            dlist=[]
+            for disturbance_i in disturbance_list:
+                print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
+                start=time.time()
+                net=network()
+                net.load_nnet(net_i)
+                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+                end=time.time()
+                print("Finished Time:",end-start)
+            plist.append(dlist)
+        rlist.append(plist)
+    print(rlist)
+```
+
+## Contributor
 
 ## License and Copyright
 
