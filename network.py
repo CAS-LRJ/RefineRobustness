@@ -763,8 +763,8 @@ def main():
     # # Notice: you can try different number for WORKER according to your working environment.
     # # Warning: To do all these experiments may be time consuming
     # # If you want to verify only a subset of this experiment, try MNIST_FNN_4 with mnist_0_local_property only.
-    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,3)] #9
-    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)]
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,3)] #range(2,9) for all experiments
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(1)] #range(3) for all experiments
     rlist=[]
     for net_i in net_list:
         plist=[]
@@ -773,7 +773,7 @@ def main():
             net=network()
             net.load_rlv(net_i)
             delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
-            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=12,SOLVER=cp.CBC) #We use 96 in our experiment
             print("DeepPoly Max Verified Distrubance:",delta_base)
             print("Our method Max Verified Disturbance:",lp_ans)
             plist.append([delta_base,lp_ans])
@@ -817,7 +817,7 @@ def main():
                 print(property_i,'DeepPoly Failed!')
 
             start=time.time()
-            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True):
+            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=12,TRIM=True,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True): #We use 96 WORKERS in our experiment
                 print(property_i,'DeepSRGR Success!')
                 count_deepsrgr+=1
                 pass_list.append(index)
@@ -862,7 +862,7 @@ def main():
                 start=time.time()
                 net=network()
                 net.load_nnet(net_i)
-                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=12,SPLIT_NUM=5,SOLVER=cp.CBC)) #We use 96 WORKERS in our experiment
                 end=time.time()
                 print("Finished Time:",end-start)
             plist.append(dlist)
