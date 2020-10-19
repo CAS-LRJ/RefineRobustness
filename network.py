@@ -786,8 +786,8 @@ def main():
     # # Notice: you can try different net, property and delta. (FNN4, property0-49, 0.037), (FNN5, property0-49, 0.026), (FNN6, property0-49, 0.021), (FNN7, property0-49, 0.015) is used in paper.
     # # Notice: you can try different MAX_ITER to check how iteration numbers affect experiment results.
     # # Warning: To do batch verification in large nets is time consuming. Try FNN4 if you want to do quick reproducing.
-    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
-    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)] # You can try different nets.
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(5)] # We use range(50) in our experiment.
     delta=0.037
     for net_i in net_list:
         pass_list=[]
