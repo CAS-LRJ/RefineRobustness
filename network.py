@@ -763,22 +763,22 @@ def main():
     # # Notice: you can try different number for WORKER according to your working environment.
     # # Warning: To do all these experiments may be time consuming
     # # If you want to verify only a subset of this experiment, try MNIST_FNN_4 with mnist_0_local_property only.
-    # net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,9)]
-    # property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)]
-    # rlist=[]
-    # for net_i in net_list:
-    #     plist=[]
-    #     for property_i in property_list:
-    #         print("Net:",net_i,"Property:",property_i)
-    #         net=network()
-    #         net.load_rlv(net_i)
-    #         delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
-    #         lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
-    #         print("DeepPoly Max Verified Distrubance:",delta_base)
-    #         print("Our method Max Verified Disturbance:",lp_ans)
-    #         plist.append([delta_base,lp_ans])
-    #     rlist.append(plist)
-    # print(rlist)
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,3)] #9
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)]
+    rlist=[]
+    for net_i in net_list:
+        plist=[]
+        for property_i in property_list:
+            print("Net:",net_i,"Property:",property_i)
+            net=network()
+            net.load_rlv(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i,TRIM=True)            
+            lp_ans=net.find_max_disturbance_lp(PROPERTY=property_i,L=int(delta_base*1000),R=int(delta_base*1000+63),TRIM=True,WORKERS=96,SOLVER=cp.CBC)
+            print("DeepPoly Max Verified Distrubance:",delta_base)
+            print("Our method Max Verified Disturbance:",lp_ans)
+            plist.append([delta_base,lp_ans])
+        rlist.append(plist)
+    print(rlist)
 
     # # Experiment No.2
     # # Below shows Robustness verification performance
@@ -786,57 +786,57 @@ def main():
     # # Notice: you can try different net, property and delta. (FNN4, property0-49, 0.037), (FNN5, property0-49, 0.026), (FNN6, property0-49, 0.021), (FNN7, property0-49, 0.015) is used in paper.
     # # Notice: you can try different MAX_ITER to check how iteration numbers affect experiment results.
     # # Warning: To do batch verification in large nets is time consuming. Try FNN4 if you want to do quick reproducing.
-    # net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
-    # property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
-    # delta=0.037
-    # for net_i in net_list:
-    #     pass_list=[]
-    #     nopass_list=[]
-    #     net=network()
-    #     net.load_rlv(net_i)
-    #     index=0
-    #     count_deeppoly=0
-    #     count_deepsrgr=0
-    #     mintime=None
-    #     maxtime=None
-    #     avgtime=0
-    #     print('Verifying Network:',net_i)
-    #     for property_i in property_list:
-    #         net.clear()
-    #         net.load_robustness(property_i,delta,TRIM=True)
-    #         net.deeppoly()
-    #         flag=True
-    #         for neuron_i in net.layers[-1].neurons:
-    #             # print(neuron_i.concrete_upper)
-    #             if neuron_i.concrete_upper>0:
-    #                 flag=False
-    #         if flag==True:
-    #             count_deeppoly+=1
-    #             print(property_i,'DeepPoly Success!')
-    #         else:
-    #             print(property_i,'DeepPoly Failed!')
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(50)]
+    delta=0.037
+    for net_i in net_list:
+        pass_list=[]
+        nopass_list=[]
+        net=network()
+        net.load_rlv(net_i)
+        index=0
+        count_deeppoly=0
+        count_deepsrgr=0
+        mintime=None
+        maxtime=None
+        avgtime=0
+        print('Verifying Network:',net_i)
+        for property_i in property_list:
+            net.clear()
+            net.load_robustness(property_i,delta,TRIM=True)
+            net.deeppoly()
+            flag=True
+            for neuron_i in net.layers[-1].neurons:
+                # print(neuron_i.concrete_upper)
+                if neuron_i.concrete_upper>0:
+                    flag=False
+            if flag==True:
+                count_deeppoly+=1
+                print(property_i,'DeepPoly Success!')
+            else:
+                print(property_i,'DeepPoly Failed!')
 
-    #         start=time.time()
-    #         if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True):
-    #             print(property_i,'DeepSRGR Success!')
-    #             count_deepsrgr+=1
-    #             pass_list.append(index)
-    #         else:
-    #             print(property_i,'DeepSRGR Failed!')
-    #             nopass_list.append(index)
-    #         end=time.time()
-    #         runningtime=end-start
-    #         print(property_i,'Running Time',runningtime)
-    #         if (mintime==None) or (runningtime<mintime):
-    #             mintime=runningtime
-    #         if (maxtime==None) or (runningtime>maxtime):
-    #             maxtime=runningtime
-    #         avgtime+=runningtime
-    #         index+=1
-    #     print('DeepPoly Verified:',count_deeppoly,'DeepSRGR Verified:',count_deepsrgr)
-    #     print('Min Time:',mintime,'Max Time',maxtime,'Avg Time',avgtime/50)
-    #     print('Passlist:',pass_list)
-    #     print('Nopasslist:',nopass_list)    
+            start=time.time()
+            if net.verify_lp_split(PROPERTY=property_i,DELTA=delta,MAX_ITER=5,SPLIT_NUM=0,WORKERS=96,TRIM=True,SOLVER=cp.CBC,MODE=1,USE_OPT_2=True):
+                print(property_i,'DeepSRGR Success!')
+                count_deepsrgr+=1
+                pass_list.append(index)
+            else:
+                print(property_i,'DeepSRGR Failed!')
+                nopass_list.append(index)
+            end=time.time()
+            runningtime=end-start
+            print(property_i,'Running Time',runningtime)
+            if (mintime==None) or (runningtime<mintime):
+                mintime=runningtime
+            if (maxtime==None) or (runningtime>maxtime):
+                maxtime=runningtime
+            avgtime+=runningtime
+            index+=1
+        print('DeepPoly Verified:',count_deeppoly,'DeepSRGR Verified:',count_deepsrgr)
+        print('Min Time:',mintime,'Max Time',maxtime,'Avg Time',avgtime/50)
+        print('Passlist:',pass_list)
+        print('Nopasslist:',nopass_list)    
 
     # # Experiment No.3
     # # Below is the Quantitive Robustness experiment
@@ -844,73 +844,76 @@ def main():
     # # Warning: To do all these experiments may be time consuming
     # # If you want to verify only a subset of this experiment, try 4_2 net with disturbance 0.02 and local_robustness_2 only.
     # net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet','nnet/ACASXU_experimental_v2a_4_3.nnet','nnet/ACASXU_experimental_v2a_4_4.nnet']
+    net_list=['nnet/ACASXU_experimental_v2a_4_2.nnet']
     # property_list=['properties/local_robustness_2.txt','properties/local_robustness_3.txt','properties/local_robustness_4.txt','properties/local_robustness_5.txt','properties/local_robustness_6.txt']
+    property_list=['properties/local_robustness_2.txt']
     # disturbance_list=[0.02,0.03,0.04,0.05,0.06]    
-    # rlist=[]
-    # for net_i in net_list:
-    #     plist=[]
-    #     for property_i in property_list:
-    #         net=network()
-    #         net.load_nnet(net_i)
-    #         delta_base=net.find_max_disturbance(PROPERTY=property_i)
-    #         dlist=[]
-    #         for disturbance_i in disturbance_list:
-    #             print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
-    #             start=time.time()
-    #             net=network()
-    #             net.load_nnet(net_i)
-    #             dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
-    #             end=time.time()
-    #             print("Finished Time:",end-start)
-    #         plist.append(dlist)
-    #     rlist.append(plist)
-    # print(rlist)
+    disturbance_list=[0.02]
+    rlist=[]
+    for net_i in net_list:
+        plist=[]
+        for property_i in property_list:
+            net=network()
+            net.load_nnet(net_i)
+            delta_base=net.find_max_disturbance(PROPERTY=property_i)
+            dlist=[]
+            for disturbance_i in disturbance_list:
+                print("Net:",net_i,"Property:",property_i,"Delta:",delta_base+disturbance_i)
+                start=time.time()
+                net=network()
+                net.load_nnet(net_i)
+                dlist.append(net.verify_lp_split(PROPERTY=property_i,DELTA=delta_base+disturbance_i,MAX_ITER=5,WORKERS=96,SPLIT_NUM=5,SOLVER=cp.CBC))
+                end=time.time()
+                print("Finished Time:",end-start)
+            plist.append(dlist)
+        rlist.append(plist)
+    print(rlist)
 
     # # Below shows DeepPoly uncertain relus of Experiment No.1
-    # net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,9)] #8
-    # property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)] #3
-    # radius_list=[[[0.034, 0.047], [0.017, 0.023], [0.017, 0.023]], [[0.049, 0.066], [0.025, 0.033], [0.045, 0.058]], [[0.045, 0.06], [0.024, 0.03], [0.035, 0.046]], [[0.034, 0.042], [0.016, 0.019], [0.021, 0.027]], [[0.022, 0.026], [0.011, 0.013], [0.021, 0.025]], [[0.021, 0.023], [0.01, 0.011], [0.017, 0.019]], [[0.037, 0.044], [0.02, 0.022], [0.033, 0.04]]]    
-    # net_index=0
-    # for net_i in net_list:
-    #     print("Currnet Network:",net_i)
-    #     property_index=0
-    #     for property_i in property_list:
-    #         print("Current Property",property_i)
-    #         print("Current Radius",radius_list[net_index][property_index][1])
-    #         net=network()
-    #         net.load_rlv(net_i)
-    #         net.load_robustness(property_i,radius_list[net_index][property_index][1],TRIM=True)
-    #         net.deeppoly()
-    #         count=0
-    #         for layer_i in net.layers:
-    #             if layer_i.layer_type==layer.RELU_LAYER:
-    #                 for neuron_i in layer_i.neurons:
-    #                     if neuron_i.certain_flag==0:
-    #                         count+=1
-    #         print("Uncertain Relu:",count)
-    #         property_index+=1
-    #     net_index+=1
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(2,9)] #8
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in range(3)] #3
+    radius_list=[[[0.034, 0.047], [0.017, 0.023], [0.017, 0.023]], [[0.049, 0.066], [0.025, 0.033], [0.045, 0.058]], [[0.045, 0.06], [0.024, 0.03], [0.035, 0.046]], [[0.034, 0.042], [0.016, 0.019], [0.021, 0.027]], [[0.022, 0.026], [0.011, 0.013], [0.021, 0.025]], [[0.021, 0.023], [0.01, 0.011], [0.017, 0.019]], [[0.037, 0.044], [0.02, 0.022], [0.033, 0.04]]]    
+    net_index=0
+    for net_i in net_list:
+        print("Currnet Network:",net_i)
+        property_index=0
+        for property_i in property_list:
+            print("Current Property",property_i)
+            print("Current Radius",radius_list[net_index][property_index][1])
+            net=network()
+            net.load_rlv(net_i)
+            net.load_robustness(property_i,radius_list[net_index][property_index][1],TRIM=True)
+            net.deeppoly()
+            count=0
+            for layer_i in net.layers:
+                if layer_i.layer_type==layer.RELU_LAYER:
+                    for neuron_i in layer_i.neurons:
+                        if neuron_i.certain_flag==0:
+                            count+=1
+            print("Uncertain Relu:",count)
+            property_index+=1
+        net_index+=1
     
     # # Below shows DeepPoly uncertain relus of Experiment No.2 (FNN_4 with only not pass property)
-    # net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
-    # property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in [1, 8, 9, 12, 15, 17, 19, 21, 23, 24, 25, 35, 36, 38, 47]]
-    # radius=0.037    
-    # for net_i in net_list:
-    #     print("Currnet Network:",net_i)        
-    #     for property_i in property_list:
-    #         print("Current Property",property_i)
-    #         print("Current Radius",radius)
-    #         net=network()
-    #         net.load_rlv(net_i)
-    #         net.load_robustness(property_i,radius,TRIM=True)
-    #         net.deeppoly()
-    #         count=0
-    #         for layer_i in net.layers:
-    #             if layer_i.layer_type==layer.RELU_LAYER:
-    #                 for neuron_i in layer_i.neurons:
-    #                     if neuron_i.certain_flag==0:
-    #                         count+=1
-    #         print("Uncertain Relu:",count)                    
+    net_list=['rlv/caffeprototxt_AI2_MNIST_FNN_'+str(i)+'_testNetworkB.rlv' for i in range(4,5)]
+    property_list=['properties/mnist_'+str(i)+'_local_property.in' for i in [1, 8, 9, 12, 15, 17, 19, 21, 23, 24, 25, 35, 36, 38, 47]]
+    radius=0.037    
+    for net_i in net_list:
+        print("Currnet Network:",net_i)        
+        for property_i in property_list:
+            print("Current Property",property_i)
+            print("Current Radius",radius)
+            net=network()
+            net.load_rlv(net_i)
+            net.load_robustness(property_i,radius,TRIM=True)
+            net.deeppoly()
+            count=0
+            for layer_i in net.layers:
+                if layer_i.layer_type==layer.RELU_LAYER:
+                    for neuron_i in layer_i.neurons:
+                        if neuron_i.certain_flag==0:
+                            count+=1
+            print("Uncertain Relu:",count)                    
 
     # # Below shows the small illustration example in paper
     # net=network()
